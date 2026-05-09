@@ -1,0 +1,28 @@
+{
+  "id": "sci_paper_1",
+  "title": "Science Paper 1",
+  "subject": "Science",
+  "subjectIcon": "🔬",
+  "totalQuestions": 3,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the chemical symbol for water?",
+      "options": ["WO", "H2O", "HO2", "W2O"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "What do plants need, along with water and soil, to make their own food?",
+      "options": ["Moonlight", "Wind", "Sunlight", "Rain"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "Which gas do humans breathe in that is essential for survival?",
+      "options": ["Carbon dioxide", "Nitrogen", "Oxygen", "Hydrogen"],
+      "correctAnswer": 2
+    }
+  ]
+}

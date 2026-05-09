@@ -1,0 +1,343 @@
+/* ─── Google Fonts ────────────────────────────────────────────────────────────── */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&display=swap");
+
+/* ─── CSS Custom Properties ───────────────────────────────────────────────────── */
+:root {
+  /* Brand colours */
+  --purple:        #7C3AED;
+  --purple-light:  #A78BFA;
+  --purple-dark:   #5B21B6;
+  --orange:        #F97316;
+  --orange-light:  #FED7AA;
+  --teal:          #0D9488;
+  --teal-light:    #99F6E4;
+  --yellow:        #F59E0B;
+  --yellow-light:  #FEF3C7;
+  --pink:          #EC4899;
+  --green:         #10B981;
+  --green-light:   #D1FAE5;
+  --red:           #EF4444;
+  --red-light:     #FEE2E2;
+
+  /* Layout & text */
+  --bg:            #F5F3FF;
+  --white:         #FFFFFF;
+  --text-dark:     #1E1B4B;
+  --text-mid:      #4C1D95;
+  --text-light:    #7C3AED;
+
+  /* Elevation */
+  --shadow:        0 4px 20px rgba(124, 58, 237, 0.15);
+  --shadow-hover:  0 8px 30px rgba(124, 58, 237, 0.3);
+
+  /* Shape & motion */
+  --radius:        20px;
+  --radius-sm:     12px;
+  --transition:    all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ─── Reset ───────────────────────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ─── Base ────────────────────────────────────────────────────────────────────── */
+body {
+  font-family: "Nunito", sans-serif;
+  background: var(--bg);
+  color: var(--text-dark);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── App Container ───────────────────────────────────────────────────────────── */
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* ─── Keyframe Animations ─────────────────────────────────────────────────────── */
+
+/* Fade-in from below */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Slide in from the left */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Gentle bounce scale */
+@keyframes bounce {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+/* Soft pulse scale */
+@keyframes pulse {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+/* Full 360° spin */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* Confetti piece falling from above the viewport */
+@keyframes confettiFall {
+  from {
+    transform: translateY(-100px) rotate(0deg);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100vh) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+/* Shimmer / loading skeleton */
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
+}
+
+/* Timer warning pulse — grows and turns red */
+@keyframes timerPulse {
+  0%   { transform: scale(1);    color: inherit; }
+  50%  { transform: scale(1.1);  color: var(--red); }
+  100% { transform: scale(1);    color: inherit; }
+}
+
+/* Slow vertical float */
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+/* Pop-in from nothing */
+@keyframes popIn {
+  0%   { transform: scale(0);    opacity: 0; }
+  70%  { transform: scale(1.1);  opacity: 1; }
+  100% { transform: scale(1);    opacity: 1; }
+}
+
+/* ─── Screen Wrapper ──────────────────────────────────────────────────────────── */
+.screen {
+  animation: fadeIn 0.4s ease both;
+}
+
+/* ─── Utility: Buttons ────────────────────────────────────────────────────────── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--purple);
+  color: var(--white);
+  padding: 12px 28px;
+  border: none;
+  border-radius: 50px;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+  filter: brightness(1.1);
+  outline: none;
+}
+
+.btn-primary:active {
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--white);
+  color: var(--purple);
+  padding: 12px 28px;
+  border: 2px solid var(--purple);
+  border-radius: 50px;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+  background: var(--bg);
+  outline: none;
+}
+
+.btn-secondary:active {
+  transform: translateY(-1px);
+}
+
+.btn-danger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--red);
+  color: var(--white);
+  padding: 12px 28px;
+  border: none;
+  border-radius: 50px;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: 0 4px 20px rgba(239, 68, 68, 0.25);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn-danger:hover,
+.btn-danger:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(239, 68, 68, 0.4);
+  filter: brightness(1.1);
+  outline: none;
+}
+
+.btn-danger:active {
+  transform: translateY(-1px);
+}
+
+/* ─── Utility: Card ───────────────────────────────────────────────────────────── */
+.card {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 24px;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+
+/* ─── Utility: Badge ──────────────────────────────────────────────────────────── */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--purple-light);
+  color: var(--purple);
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* ─── Custom Scrollbar ────────────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--purple-light);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--purple);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--purple-light) transparent;
+}
+
+/* ─── Media Queries ───────────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 12px;
+  }
+
+  .btn-primary,
+  .btn-secondary,
+  .btn-danger {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  .card {
+    padding: 16px;
+    border-radius: var(--radius-sm);
+  }
+
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.4rem; }
+  h3 { font-size: 1.1rem; }
+}
+
+@media (max-width: 480px) {
+  .app-container {
+    padding: 8px;
+  }
+
+  .btn-primary,
+  .btn-secondary,
+  .btn-danger {
+    padding: 9px 16px;
+    font-size: 0.95rem;
+  }
+
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.2rem; }
+}

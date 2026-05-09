@@ -1,0 +1,28 @@
+{
+  "id": "ca_paper_3",
+  "title": "Current Affairs Paper 3",
+  "subject": "Current Affairs",
+  "subjectIcon": "📰",
+  "totalQuestions": 3,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What does 'AI' stand for in technology?",
+      "options": ["Automated Internet", "Artificial Intelligence", "Advanced Information", "Automated Integration"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Which annual event brings world leaders together to discuss climate change?",
+      "options": ["G20 Summit", "World Economic Forum", "UN Climate Change Conference (COP)", "NATO Summit"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "What is the name of the international space station orbiting Earth that multiple countries operate together?",
+      "options": ["Mir", "Skylab", "International Space Station (ISS)", "Tiangong"],
+      "correctAnswer": 2
+    }
+  ]
+}

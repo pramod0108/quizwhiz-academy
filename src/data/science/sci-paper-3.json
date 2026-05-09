@@ -1,0 +1,28 @@
+{
+  "id": "sci_paper_3",
+  "title": "Science Paper 3",
+  "subject": "Science",
+  "subjectIcon": "🔬",
+  "totalQuestions": 3,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the closest star to planet Earth?",
+      "options": ["Sirius", "Betelgeuse", "The Sun", "Proxima Centauri"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "question": "How many bones are in an adult human body?",
+      "options": ["106", "206", "306", "406"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Which part of the plant absorbs water and nutrients from the soil?",
+      "options": ["Leaves", "Stem", "Roots", "Flowers"],
+      "correctAnswer": 2
+    }
+  ]
+}

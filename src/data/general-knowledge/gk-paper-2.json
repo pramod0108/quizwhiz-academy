@@ -1,0 +1,28 @@
+{
+  "id": "gk_paper_2",
+  "title": "GK Paper 2",
+  "subject": "General Knowledge",
+  "subjectIcon": "🌍",
+  "totalQuestions": 3,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which country is home to the kangaroo?",
+      "options": ["Brazil", "South Africa", "India", "Australia"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q2",
+      "question": "What is the capital city of France?",
+      "options": ["Berlin", "Paris", "Rome", "Madrid"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Which instrument has black and white keys and is played with your fingers?",
+      "options": ["Guitar", "Violin", "Piano", "Trumpet"],
+      "correctAnswer": 2
+    }
+  ]
+}

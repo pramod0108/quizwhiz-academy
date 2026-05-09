@@ -1,0 +1,238 @@
+{
+  "id": "india_states_capitals_paper_1",
+  "title": "India States & Union Territories",
+  "subject": "General Knowledge",
+  "subjectIcon": "🌍",
+  "totalQuestions": 38,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the capital of Andhra Pradesh?",
+      "options": ["Hyderabad", "Amaravati", "Bhopal", "Chennai"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "What is the capital of Arunachal Pradesh?",
+      "options": ["Dispur", "Itanagar", "Gangtok", "Shillong"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "What is the capital of Assam?",
+      "options": ["Kohima", "Imphal", "Dispur", "Aizawl"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "What is the capital of Bihar?",
+      "options": ["Patna", "Ranchi", "Lucknow", "Raipur"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q5",
+      "question": "What is the capital of Chhattisgarh?",
+      "options": ["Raipur", "Bhubaneswar", "Jaipur", "Dehradun"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "question": "What is the capital of Goa?",
+      "options": ["Panaji", "Mumbai", "Pune", "Shimla"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q7",
+      "question": "What is the capital of Gujarat?",
+      "options": ["Ahmedabad", "Gandhinagar", "Surat", "Vadodara"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "What is the capital of Haryana?",
+      "options": ["Chandigarh", "Amritsar", "Hisar", "Karnal"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q9",
+      "question": "What is the capital of Himachal Pradesh?",
+      "options": ["Manali", "Shimla", "Dharamshala", "Dehradun"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "What is the summer capital of Jammu and Kashmir?",
+      "options": ["Leh", "Jammu", "Srinagar", "Kargil"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q11",
+      "question": "What is the capital of Jharkhand?",
+      "options": ["Patna", "Ranchi", "Raigarh", "Dhanbad"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "What is the capital of Karnataka?",
+      "options": ["Mysuru", "Hubli", "Belagavi", "Bengaluru"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q13",
+      "question": "What is the capital of Kerala?",
+      "options": ["Kochi", "Kollam", "Trivandrum", "Kannur"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q14",
+      "question": "What is the capital of Madhya Pradesh?",
+      "options": ["Bhopal", "Indore", "Jabalpur", "Gwalior"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "What is the capital of Maharashtra?",
+      "options": ["Nagpur", "Mumbai", "Pune", "Nashik"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "What is the capital of Manipur?",
+      "options": ["Imphal", "Shillong", "Agartala", "Aizawl"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "What is the capital of Meghalaya?",
+      "options": ["Gangtok", "Shillong", "Kohima", "Dispur"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "What is the capital of Mizoram?",
+      "options": ["Imphal", "Aizawl", "Agartala", "Shillong"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "What is the capital of Nagaland?",
+      "options": ["Kohima", "Dimapur", "Itanagar", "Gangtok"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "What is the capital of Odisha?",
+      "options": ["Cuttack", "Bhubaneswar", "Rourkela", "Puri"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q21",
+      "question": "What is the capital of Punjab?",
+      "options": ["Ludhiana", "Patiala", "Amritsar", "Chandigarh"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q22",
+      "question": "What is the capital of Rajasthan?",
+      "options": ["Jodhpur", "Jaipur", "Udaipur", "Ajmer"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q23",
+      "question": "What is the capital of Sikkim?",
+      "options": ["Gangtok", "Shillong", "Aizawl", "Kohima"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q24",
+      "question": "What is the capital of Tamil Nadu?",
+      "options": ["Madurai", "Coimbatore", "Chennai", "Salem"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q25",
+      "question": "What is the capital of Telangana?",
+      "options": ["Warangal", "Hyderabad", "Karimnagar", "Nizamabad"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q26",
+      "question": "What is the capital of Tripura?",
+      "options": ["Agartala", "Aizawl", "Imphal", "Shillong"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q27",
+      "question": "What is the capital of Uttar Pradesh?",
+      "options": ["Kanpur", "Varanasi", "Lucknow", "Prayagraj"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q28",
+      "question": "What is the capital of Uttarakhand?",
+      "options": ["Haridwar", "Nainital", "Rishikesh", "Dehradun"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q29",
+      "question": "What is the capital of West Bengal?",
+      "options": ["Darjeeling", "Howrah", "Kolkata", "Siliguri"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q30",
+      "question": "What is the winter capital of Jammu and Kashmir?",
+      "options": ["Leh", "Jammu", "Srinagar", "Kargil"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q31",
+      "question": "What is the capital of Andaman and Nicobar Islands?",
+      "options": ["Port Blair", "Kavaratti", "Daman", "Pondicherry"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q32",
+      "question": "What is the capital of Chandigarh?",
+      "options": ["New Delhi", "Chandigarh", "Leh", "Daman"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q33",
+      "question": "What is the capital of Dadra and Nagar Haveli and Daman and Diu?",
+      "options": ["Diu", "Silvassa", "Daman", "Kavaratti"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q34",
+      "question": "What is the capital of Delhi?",
+      "options": ["Delhi", "New Delhi", "Chennai", "Mumbai"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q35",
+      "question": "What is the summer capital of Ladakh?",
+      "options": ["Kargil", "Leh", "Srinagar", "Jammu"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q36",
+      "question": "What is the capital of Lakshadweep?",
+      "options": ["Kavaratti", "Port Blair", "Pondicherry", "Daman"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q37",
+      "question": "What is the capital of Puducherry?",
+      "options": ["Karaikal", "Yanam", "Pondicherry", "Mahe"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q38",
+      "question": "What is the winter capital of Ladakh?",
+      "options": ["Kargil", "Leh", "Srinagar", "Jammu"],
+      "correctAnswer": 0
+    }
+  ]
+}

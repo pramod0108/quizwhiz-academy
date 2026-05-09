@@ -1,0 +1,28 @@
+{
+  "id": "math_paper_2",
+  "title": "Math Paper 2",
+  "subject": "Mathematics",
+  "subjectIcon": "➕",
+  "totalQuestions": 3,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the area of a rectangle with a length of 9 cm and a width of 4 cm?",
+      "options": ["26 cm²", "30 cm²", "36 cm²", "40 cm²"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "question": "What is the next prime number after 13?",
+      "options": ["14", "15", "16", "17"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q3",
+      "question": "If a bag of apples costs £2.50 and you buy 4 bags, how much do you spend in total?",
+      "options": ["£8.00", "£9.00", "£10.00", "£11.00"],
+      "correctAnswer": 2
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hist_paper_3",
+  "title": "History Paper 3",
+  "subject": "History",
+  "subjectIcon": "🏛️",
+  "totalQuestions": 3,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which explorer is credited with completing the first circumnavigation of the Earth?",
+      "options": ["Christopher Columbus", "Vasco da Gama", "Ferdinand Magellan", "James Cook"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "question": "What was the name of the wall built across northern England by the Roman Emperor Hadrian?",
+      "options": ["The Great Wall", "Hadrian's Wall", "Antonine Wall", "Emperor's Wall"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Which queen ruled Britain for the longest period in history, reigning for 70 years?",
+      "options": ["Queen Victoria", "Queen Mary I", "Queen Elizabeth I", "Queen Elizabeth II"],
+      "correctAnswer": 3
+    }
+  ]
+}

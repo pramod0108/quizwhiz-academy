@@ -1,0 +1,85 @@
+{
+  "id": "kids_gk_current_affairs_paper_1",
+  "title": "Kids GK and Current Affairs Paper 1",
+  "subject": "GK & Current Affairs",
+  "subjectIcon": "🧠",
+  "totalQuestions": 10,
+  "timeLimit": 15,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Earth", "Mars", "Jupiter", "Venus"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Who is known as the Father of the Nation in India?",
+      "options": [
+        "Jawaharlal Nehru",
+        "Subhas Chandra Bose",
+        "Mahatma Gandhi",
+        "Bhagat Singh"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "What is the national animal of India?",
+      "options": ["Elephant", "Lion", "Tiger", "Peacock"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "Which festival is known as the Festival of Lights?",
+      "options": ["Holi", "Diwali", "Eid", "Christmas"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "Which is the largest ocean in the world?",
+      "options": [
+        "Indian Ocean",
+        "Atlantic Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q6",
+      "question": "Who is the current Prime Minister of India in 2026?",
+      "options": [
+        "Narendra Modi",
+        "Rahul Gandhi",
+        "Amit Shah",
+        "Yogi Adityanath"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q7",
+      "question": "Which sport uses a bat, ball, and wickets?",
+      "options": ["Football", "Cricket", "Hockey", "Tennis"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "What do bees make?",
+      "options": ["Milk", "Honey", "Butter", "Juice"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Which Indian space agency launched the Chandrayaan missions?",
+      "options": ["NASA", "ISRO", "ESA", "JAXA"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "How many days are there in a leap year?",
+      "options": ["364", "365", "366", "367"],
+      "correctAnswer": 2
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hist_paper_2",
+  "title": "History Paper 2",
+  "subject": "History",
+  "subjectIcon": "🏛️",
+  "totalQuestions": 3,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which ancient civilisation built the Colosseum in Rome?",
+      "options": ["Ancient Greeks", "Ancient Egyptians", "Ancient Romans", "Ancient Persians"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "question": "Who was the famous leader of the Indian independence movement, known for his non-violent protests?",
+      "options": ["Jawaharlal Nehru", "Subhas Chandra Bose", "Mahatma Gandhi", "Bhagat Singh"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "In which year did World War II end?",
+      "options": ["1943", "1944", "1945", "1946"],
+      "correctAnswer": 2
+    }
+  ]
+}

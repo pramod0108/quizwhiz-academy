@@ -1,0 +1,28 @@
+{
+  "id": "ca_paper_2",
+  "title": "Current Affairs Paper 2",
+  "subject": "Current Affairs",
+  "subjectIcon": "📰",
+  "totalQuestions": 3,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "In which city were the 2024 Summer Olympic Games held?",
+      "options": ["Tokyo", "Los Angeles", "Paris", "London"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "question": "What is the name of the world's first fully reusable commercial rocket developed by SpaceX?",
+      "options": ["Saturn V", "Falcon 9", "Starship", "New Shepard"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "Which country hosted the FIFA World Cup in 2022?",
+      "options": ["Brazil", "Russia", "Qatar", "Germany"],
+      "correctAnswer": 2
+    }
+  ]
+}

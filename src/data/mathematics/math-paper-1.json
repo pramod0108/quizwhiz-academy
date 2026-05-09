@@ -1,0 +1,28 @@
+{
+  "id": "math_paper_1",
+  "title": "Math Paper 1",
+  "subject": "Mathematics",
+  "subjectIcon": "➕",
+  "totalQuestions": 3,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is 12 × 8?",
+      "options": ["88", "96", "104", "112"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "What is the value of the missing number? 45 ÷ ? = 9",
+      "options": ["4", "5", "6", "7"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "What is 15% of 200?",
+      "options": ["20", "25", "30", "35"],
+      "correctAnswer": 2
+    }
+  ]
+}

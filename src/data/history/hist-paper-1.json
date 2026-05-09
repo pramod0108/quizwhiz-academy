@@ -1,0 +1,28 @@
+{
+  "id": "hist_paper_1",
+  "title": "History Paper 1",
+  "subject": "History",
+  "subjectIcon": "🏛️",
+  "totalQuestions": 3,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Who was the first person to walk on the Moon?",
+      "options": ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "question": "In which country were the ancient pyramids of Giza built?",
+      "options": ["Iraq", "Greece", "Egypt", "Sudan"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "Which famous ship sank on its maiden voyage in April 1912?",
+      "options": ["The Lusitania", "The Titanic", "The Bismarck", "The Britannic"],
+      "correctAnswer": 1
+    }
+  ]
+}

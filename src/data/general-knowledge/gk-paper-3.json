@@ -1,0 +1,28 @@
+{
+  "id": "gk_paper_3",
+  "title": "GK Paper 3",
+  "subject": "General Knowledge",
+  "subjectIcon": "🌍",
+  "totalQuestions": 3,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which is the tallest mountain in the world?",
+      "options": ["K2", "Mount Kilimanjaro", "Mount Everest", "Mont Blanc"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "question": "How many sides does a hexagon have?",
+      "options": ["5", "6", "7", "8"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "What language is spoken by the most people in the world as their native language?",
+      "options": ["English", "Spanish", "Hindi", "Mandarin Chinese"],
+      "correctAnswer": 3
+    }
+  ]
+}
