@@ -1,28 +1,250 @@
 {
-  "id": "gk_paper_2",
-  "title": "GK Paper 2",
+  "id": "national_symbols_india_paper_1",
+  "title": "National Symbols of India",
   "subject": "General Knowledge",
-  "subjectIcon": "🌍",
-  "totalQuestions": 3,
+  "subjectIcon": "🇮🇳",
+  "totalQuestions": 30,
   "timeLimit": 30,
   "questions": [
     {
       "id": "q1",
-      "question": "Which country is home to the kangaroo?",
-      "options": ["Brazil", "South Africa", "India", "Australia"],
-      "correctAnswer": 3
+      "question": "Who is popular for designing the Indian Flag?",
+      "options": [
+        "Mahatma Gandhi",
+        "Pingali Venkayya",
+        "Bal Gangadhar Tilak",
+        "Lala Hansraj"
+      ],
+      "correctAnswer": 1
     },
     {
       "id": "q2",
-      "question": "What is the capital city of France?",
-      "options": ["Berlin", "Paris", "Rome", "Madrid"],
+      "question": "Who among the following was the first Indian to unfurl the tricolour on foreign land?",
+      "options": [
+        "Annie Besant",
+        "Bhikaiji Cama",
+        "Begum Hazrat Mahal",
+        "Lakshmi Sehgal"
+      ],
       "correctAnswer": 1
     },
     {
       "id": "q3",
-      "question": "Which instrument has black and white keys and is played with your fingers?",
-      "options": ["Guitar", "Violin", "Piano", "Trumpet"],
+      "question": "Who among the following freedom fighters wrote the poem 'Vande Mataram' in 1875?",
+      "options": [
+        "Bankim Chandra Chatterjee",
+        "Bipin Chandra Pal",
+        "Rabindranath Tagore",
+        "Bhagat Singh"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "question": "In India, the Project Tiger was started in ______.",
+      "options": ["1979", "1973", "1992", "1982"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "What is the national animal of Bangladesh?",
+      "options": ["Royal Bengal Tiger", "Python", "Goat", "Buffalo"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "question": "The National Tree of India is:",
+      "options": ["Sal", "Peepal", "Mango", "Banyan"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q7",
+      "question": "For which specific reason is Pingali Venkayya remembered even today?",
+      "options": [
+        "He composed the music for the National Anthem",
+        "He helped in the annexation of Goa",
+        "He designed the Indian National Flag",
+        "He helped in the annexation of Hyderabad"
+      ],
       "correctAnswer": 2
+    },
+    {
+      "id": "q8",
+      "question": "Which of the following animals does not find a place in the National Emblem of India?",
+      "options": ["Bull", "Camel", "Horse", "Lion"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Which is the national heritage animal of India?",
+      "options": ["Lion", "Horse", "Tiger", "Elephant"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q10",
+      "question": "The first national flag of India is said to have hoisted at ______ in 1906.",
+      "options": ["Patna", "Kolkata", "New Delhi", "Ahmedabad"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "The National Song of India, 'Vande Mataram' was composed in ______ language.",
+      "options": ["Pali", "Urdu", "Hindi", "Sanskrit"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q12",
+      "question": "Which of the following is the national bird of India?",
+      "options": ["Peacock", "Dudhraj", "Crow", "Columbidae"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "When was the Indian national song 'Vande Mataram' sung for the first time on a political occasion?",
+      "options": [
+        "1896 INC session",
+        "1903 INC session",
+        "1911 INC session",
+        "1900 INC session"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "On which day was the National Emblem of India adopted?",
+      "options": [
+        "15th August 1947",
+        "26th January 1959",
+        "26th January 1950",
+        "15th August 1952"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q15",
+      "question": "The National Emblem of India is taken from:",
+      "options": [
+        "Kolkata Museum",
+        "Ashoka Pillar, Sarnath",
+        "Patna Museum",
+        "Bodh Gaya"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "The ratio of the length to the height (width) of the national flag shall be:",
+      "options": ["4:1", "3:2", "4:2", "3:1"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "The number of spokes in the 'Chakra' in Indian National Flag is:",
+      "options": ["40", "24", "22", "20"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "The national calendar based on the Saka era, was adopted by India on ______.",
+      "options": [
+        "22nd July 1947",
+        "26th January 1950",
+        "24th January 1950",
+        "22nd March 1957"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q19",
+      "question": "When was 'Jana-Gana-Mana' first sung and where?",
+      "options": [
+        "27th December, 1911 in Calcutta",
+        "26th December 1942 in Calcutta",
+        "24th January 1950 in Delhi",
+        "24th January 1950 in Allahabad"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Ganga River was declared as National River in which of the following years?",
+      "options": ["2010", "1983", "2008", "1950"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q21",
+      "question": "Mango was declared as the national fruit of India in ______.",
+      "options": ["1947", "1950", "1963", "1973"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q22",
+      "question": "______ is the national aquatic animal of India.",
+      "options": ["Blue Whale", "Ganges River Dolphin", "Shark", "Crocodile"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q23",
+      "question": "______ is the first month of national calendar of India, based on Saka Era.",
+      "options": ["Vaishakh", "Magh", "Chaitra", "Phalguna"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q24",
+      "question": "Madam Bhikaji Cama hoisted the national flag of India in the country of ______.",
+      "options": ["France", "Germany", "England", "Italy"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q25",
+      "question": "In ______ Royal Bengal Tiger was declared as the national animal of India.",
+      "options": ["1950", "1962", "1973", "1984"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q26",
+      "question": "Vande Mataram was translated in English by ______ that was published in 1909.",
+      "options": [
+        "Rabindranath Tagore",
+        "Bankim Chandra Chatterjee",
+        "Aurobindo Ghosh",
+        "Subhash Chandra Bose"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q27",
+      "question": "The national emblem of India has ______ Asiatic lions, along with bull, horse and elephant, featuring it.",
+      "options": ["Two", "Three", "Four", "Five"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q28",
+      "question": "The national flag of India was adopted by the constituent assembly on ______.",
+      "options": [
+        "15th August 1947",
+        "26th January 1950",
+        "22nd July 1947",
+        "2nd October 1948"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q29",
+      "question": "______ is the national flower of India.",
+      "options": ["Rose", "Sunflower", "Lily", "Lotus"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q30",
+      "question": "______ is the national motto of India.",
+      "options": [
+        "Jai Hind",
+        "Satyameva Jayate",
+        "Vande Mataram",
+        "Bharat Mata Ki Jai"
+      ],
+      "correctAnswer": 1
     }
   ]
 }
