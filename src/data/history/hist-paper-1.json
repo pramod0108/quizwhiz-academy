@@ -1,28 +1,70 @@
 {
-  "id": "hist_paper_1",
-  "title": "History Paper 1",
+  "id": "hist_kids_indian_1",
+  "title": "Indian History-1",
   "subject": "History",
   "subjectIcon": "🏛️",
-  "totalQuestions": 3,
+  "totalQuestions": 10,
   "timeLimit": 30,
   "questions": [
     {
       "id": "q1",
-      "question": "Who was the first person to walk on the Moon?",
-      "options": ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"],
-      "correctAnswer": 2
+      "question": "Who was the first Prime Minister of independent India?",
+      "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Dr. B.R. Ambedkar", "Subhas Chandra Bose"],
+      "correctAnswer": 1
     },
     {
       "id": "q2",
-      "question": "In which country were the ancient pyramids of Giza built?",
-      "options": ["Iraq", "Greece", "Egypt", "Sudan"],
+      "question": "Who is lovingly called the 'Father of the Nation' in India?",
+      "options": ["Bhagat Singh", "Sardar Patel", "Mahatma Gandhi", "Lala Lajpat Rai"],
       "correctAnswer": 2
     },
     {
       "id": "q3",
-      "question": "Which famous ship sank on its maiden voyage in April 1912?",
-      "options": ["The Lusitania", "The Titanic", "The Bismarck", "The Britannic"],
+      "question": "Which famous monument in Agra was built by the Mughal Emperor Shah Jahan?",
+      "options": ["Red Fort", "Qutub Minar", "Hawa Mahal", "Taj Mahal"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q4",
+      "question": "Which great Indian emperor gave up war and embraced Buddhism after the Battle of Kalinga?",
+      "options": ["Ashoka", "Akbar", "Chandragupta Maurya", "Maharana Pratap"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q5",
+      "question": "In which year did India gain independence from British rule?",
+      "options": ["1945", "1947", "1950", "1952"],
       "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "Who was the first woman Prime Minister of India?",
+      "options": ["Sarojini Naidu", "Mother Teresa", "Indira Gandhi", "Pratibha Patil"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "Who wrote India's national anthem, 'Jana Gana Mana'?",
+      "options": ["Rabindranath Tagore", "Bankim Chandra Chatterjee", "Swami Vivekananda", "Munshi Premchand"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "Who is known as the 'Iron Man of India'?",
+      "options": ["Jawaharlal Nehru", "Sardar Vallabhbhai Patel", "Subhas Chandra Bose", "Bipin Chandra Pal"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "What was the name of the first Indian satellite launched into space?",
+      "options": ["Chandrayaan", "Mangalyaan", "Aryabhata", "Bhaskara"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q10",
+      "question": "Which great warrior and king founded the Maratha Empire?",
+      "options": ["Tipu Sultan", "Rani Lakshmibai", "Ashoka", "Chhatrapati Shivaji Maharaj"],
+      "correctAnswer": 3
     }
   ]
 }
