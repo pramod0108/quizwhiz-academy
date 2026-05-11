@@ -1,28 +1,184 @@
 {
-  "id": "gk_paper_3",
-  "title": "GK Paper 3",
+  "id": "river_side_cities_paper_2",
+  "title": "River Side Cities & National Symbols Quiz",
   "subject": "General Knowledge",
-  "subjectIcon": "🌍",
-  "totalQuestions": 3,
-  "timeLimit": 30,
+  "subjectIcon": "🇮🇳",
+  "totalQuestions": 29,
+  "timeLimit": 40,
   "questions": [
     {
       "id": "q1",
-      "question": "Which is the tallest mountain in the world?",
-      "options": ["K2", "Mount Kilimanjaro", "Mount Everest", "Mont Blanc"],
+      "question": "Which river flows through Haridwar, Kanpur, Varanasi, Prayagraj, Patna and Bhagalpur?",
+      "options": ["Yamuna", "Godawari", "Ganga", "Narmada"],
       "correctAnswer": 2
     },
     {
       "id": "q2",
-      "question": "How many sides does a hexagon have?",
-      "options": ["5", "6", "7", "8"],
-      "correctAnswer": 1
+      "question": "Delhi, Agra, Mathura and Prayagraj are located on which river?",
+      "options": ["Yamuna", "Ganga", "Krishna", "Tapti"],
+      "correctAnswer": 0
     },
     {
       "id": "q3",
-      "question": "What language is spoken by the most people in the world as their native language?",
-      "options": ["English", "Spanish", "Hindi", "Mandarin Chinese"],
-      "correctAnswer": 3
+      "question": "Bodhgaya is situated on the bank of which river?",
+      "options": ["Niranjana", "Godawari", "Sutlej", "Mahanadi"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "question": "Ahmedabad is situated on the bank of which river?",
+      "options": ["Sabarmati", "Tapti", "Musi", "Gomati"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q5",
+      "question": "Bhopal is associated with which river?",
+      "options": ["Godawari", "Narmada", "Krishna", "Indus"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "Ayodhya is situated on the bank of which river?",
+      "options": ["Ganga", "Saryu", "Yamuna", "Musi"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Lucknow is situated on the bank of which river?",
+      "options": ["Tapti", "Gomati", "Sabarmati", "Shipra"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "Vijayawada is situated on the bank of which river?",
+      "options": ["Krishna", "Godawari", "Yamuna", "Mahanadi"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q9",
+      "question": "Jamshedpur is situated on the bank of which river?",
+      "options": ["Subarnarekha", "Ganga", "Musi", "Indus"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q10",
+      "question": "Nashik is situated on the bank of which river?",
+      "options": ["Tapti", "Godawari", "Krishna", "Sutlej"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Ujjain is situated on the bank of which river?",
+      "options": ["Shipra", "Gomati", "Narmada", "Mahanadi"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q12",
+      "question": "Srinagar is situated on the bank of which river?",
+      "options": ["Alaknanda", "Jhelum", "Indus", "Brahmaputra"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "Surat is situated on the bank of which river?",
+      "options": ["Sabarmati", "Shipra", "Tapti", "Krishna"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q14",
+      "question": "Hyderabad is situated on the bank of which river?",
+      "options": ["Musi", "Gomati", "Shipra", "Saryu"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "Badrinath is situated on the bank of which river?",
+      "options": ["Alaknanda", "Yamuna", "Tapti", "Subarnarekha"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "Ludhiana and Firozpur are situated on the bank of which river?",
+      "options": ["Indus", "Sutlej", "Mahanadi", "Krishna"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "Leh is situated on the bank of which river?",
+      "options": ["Brahmaputra", "Indus", "Narmada", "Sabarmati"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "Dibrugarh and Guwahati are situated on the bank of which river?",
+      "options": ["Godawari", "Brahmaputra", "Ganga", "Mahanadi"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "Cuttack is situated on the bank of which river?",
+      "options": ["Mahanadi", "Krishna", "Yamuna", "Tapti"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Kota is situated on the bank of which river?",
+      "options": ["Sabarmati", "Shipra", "Chambal", "Gomati"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q21",
+      "question": "What is the National Calendar of India?",
+      "options": ["Gregorian Calendar", "Saka Calendar", "Vikram Samvat", "Hijri Calendar"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q22",
+      "question": "What is the National Pledge of India also known as?",
+      "options": ["National Anthem", "National Song", "Oath of Allegiance", "National Motto"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q23",
+      "question": "Which is the National Classical Dance of India?",
+      "options": ["Kathak", "Bharatanatyam", "Kathakali", "Odissi"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q24",
+      "question": "Which is the National Reptile of India?",
+      "options": ["King Cobra", "Crocodile", "Python", "Monitor Lizard"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q25",
+      "question": "What is considered the National Game of India?",
+      "options": ["Cricket", "Football", "Hockey", "Kabaddi"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q26",
+      "question": "What is the National Currency of India?",
+      "options": ["Dollar", "Rupee", "Taka", "Dinar"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q27",
+      "question": "Which is the National River of India and its approximate length is 2525 km?",
+      "options": ["Yamuna", "Godawari", "Ganga", "Brahmaputra"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q28",
+      "question": "From which Upanishad is 'Satyamev Jayate' taken?",
+      "options": ["Katha Upanishad", "Mundaka Upanishad", "Isha Upanishad", "Chandogya Upanishad"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q29",
+      "question": "Satyamev Jayate is written in which script?",
+      "options": ["Roman Script", "Persian Script", "Devanagari Script", "Tamil Script"],
+      "correctAnswer": 2
     }
   ]
 }
