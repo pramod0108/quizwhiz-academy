@@ -1,28 +1,395 @@
 {
-  "id": "math_paper_1",
-  "title": "Math Paper 1",
+  "id": "math_master_quiz_1",
+  "title": "Perimeter, Area, Volume and Surface Area Quiz",
   "subject": "Mathematics",
-  "subjectIcon": "➕",
-  "totalQuestions": 3,
-  "timeLimit": 30,
+  "subjectIcon": "📘",
+  "totalQuestions": 35,
+  "timeLimit": 90,
   "questions": [
     {
       "id": "q1",
-      "question": "What is 12 × 8?",
-      "options": ["88", "96", "104", "112"],
+      "question": "What is the perimeter of a rectilinear figure?",
+      "options": [
+        "The product of all sides",
+        "The sum of the lengths of all its sides",
+        "Half of all sides",
+        "The area inside the figure"
+      ],
       "correctAnswer": 1
     },
     {
       "id": "q2",
-      "question": "What is the value of the missing number? 45 ÷ ? = 9",
-      "options": ["4", "5", "6", "7"],
+      "question": "How many sides does a pentagon have?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
       "correctAnswer": 1
     },
     {
       "id": "q3",
-      "question": "What is 15% of 200?",
-      "options": ["20", "25", "30", "35"],
+      "question": "The perimeter of an equilateral triangle is equal to:",
+      "options": [
+        "2 × side",
+        "4 × side",
+        "3 × side",
+        "side × side"
+      ],
       "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "Find the perimeter of an equilateral triangle whose side is 7 cm.",
+      "options": [
+        "14 cm",
+        "21 cm",
+        "28 cm",
+        "49 cm"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "If the perimeter of an equilateral triangle is 36 cm, then the length of each side is:",
+      "options": [
+        "6 cm",
+        "9 cm",
+        "12 cm",
+        "18 cm"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q6",
+      "question": "The formula for the perimeter of a rectangle is:",
+      "options": [
+        "l × b",
+        "2 × (l + b)",
+        "4 × side",
+        "l + b"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Find the perimeter of a rectangle with length 15 cm and breadth 10 cm.",
+      "options": [
+        "25 cm",
+        "30 cm",
+        "40 cm",
+        "50 cm"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q8",
+      "question": "The perimeter of a rectangle is 48 cm and its length is 14 cm. Find the breadth.",
+      "options": [
+        "8 cm",
+        "10 cm",
+        "12 cm",
+        "14 cm"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "The perimeter of a square is calculated using:",
+      "options": [
+        "2 × side",
+        "3 × side",
+        "4 × side",
+        "side × side"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q10",
+      "question": "A square garden has each side 9 m long. Its perimeter is:",
+      "options": [
+        "18 m",
+        "27 m",
+        "36 m",
+        "81 m"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q11",
+      "question": "If the perimeter of a square is 48 m, then the length of each side is:",
+      "options": [
+        "10 m",
+        "12 m",
+        "14 m",
+        "16 m"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Area is the amount of ______ a shape covers.",
+      "options": [
+        "weight",
+        "space",
+        "length",
+        "volume"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "The formula for the area of a rectangle is:",
+      "options": [
+        "Length + Breadth",
+        "2 × (Length + Breadth)",
+        "Length × Breadth",
+        "Side × Side"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q14",
+      "question": "Find the area of a rectangle with length 17 cm and breadth 13 cm.",
+      "options": [
+        "221 cm²",
+        "210 cm²",
+        "204 cm²",
+        "230 cm²"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "A rectangle has area 432 cm² and breadth 18 cm. Find its length.",
+      "options": [
+        "18 cm",
+        "20 cm",
+        "22 cm",
+        "24 cm"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q16",
+      "question": "The formula for the area of a square is:",
+      "options": [
+        "4 × side",
+        "side × side",
+        "2 × side",
+        "length × breadth"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "Find the area of a square whose side is 15 m.",
+      "options": [
+        "225 m²",
+        "150 m²",
+        "30 m²",
+        "60 m²"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "The perimeter of a square is 96 cm. What is the length of one side?",
+      "options": [
+        "12 cm",
+        "18 cm",
+        "24 cm",
+        "30 cm"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q19",
+      "question": "If the side of a square is 24 cm, then its area is:",
+      "options": [
+        "96 cm²",
+        "144 cm²",
+        "288 cm²",
+        "576 cm²"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q20",
+      "question": "Volume is the amount of space occupied by a:",
+      "options": [
+        "2D shape",
+        "3D object",
+        "Line",
+        "Circle"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q21",
+      "question": "Volume is measured in:",
+      "options": [
+        "Square units",
+        "Metres",
+        "Cubic units",
+        "Litres only"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q22",
+      "question": "Surface area is the total area of all the ______ of a 3D object.",
+      "options": [
+        "corners",
+        "faces",
+        "edges",
+        "lines"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q23",
+      "question": "The formula for the volume of a cuboid is:",
+      "options": [
+        "l + b + h",
+        "2(l + b + h)",
+        "l × b × h",
+        "l × b"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q24",
+      "question": "The formula for the surface area of a cuboid is:",
+      "options": [
+        "l × b × h",
+        "2(l×b + b×h + h×l)",
+        "6 × a × a",
+        "4 × side"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q25",
+      "question": "A cuboid has length 12 cm, breadth 8 cm and height 5 cm. Find its volume.",
+      "options": [
+        "480 cm³",
+        "360 cm³",
+        "520 cm³",
+        "600 cm³"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q26",
+      "question": "A cube is a special type of:",
+      "options": [
+        "Triangle",
+        "Rectangle",
+        "Cuboid",
+        "Circle"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q27",
+      "question": "The formula for the volume of a cube is:",
+      "options": [
+        "a + a + a",
+        "a × a",
+        "a × a × a",
+        "6 × a"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q28",
+      "question": "The formula for the surface area of a cube is:",
+      "options": [
+        "6 × a × a",
+        "a × a × a",
+        "4 × a",
+        "2 × a × a"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q29",
+      "question": "Find the volume of a cube whose edge is 12 cm.",
+      "options": [
+        "144 cm³",
+        "864 cm³",
+        "1728 cm³",
+        "1200 cm³"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q30",
+      "question": "If the edge of a cube is 4 cm, then its surface area is:",
+      "options": [
+        "16 cm²",
+        "24 cm²",
+        "64 cm²",
+        "96 cm²"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q31",
+      "question": "The missing term in the formula 'Volume of cuboid = Length × _____ × Height' is:",
+      "options": [
+        "Area",
+        "Breadth",
+        "Perimeter",
+        "Side"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q32",
+      "question": "If the length of each edge of a cube is A, then the area of each face is:",
+      "options": [
+        "A + A",
+        "2A",
+        "A × A",
+        "A × A × A"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q33",
+      "question": "The volume of a cube with edge 16 cm is:",
+      "options": [
+        "256 cm³",
+        "1024 cm³",
+        "2048 cm³",
+        "4096 cm³"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q34",
+      "question": "Find the surface area of a cuboid with length 15 cm, breadth 12 cm and height 5 cm.",
+      "options": [
+        "450 cm²",
+        "510 cm²",
+        "630 cm²",
+        "720 cm²"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q35",
+      "question": "Surface area is measured in:",
+      "options": [
+        "Cubic units",
+        "Square units",
+        "Metres only",
+        "Litres"
+      ],
+      "correctAnswer": 1
     }
   ]
 }
