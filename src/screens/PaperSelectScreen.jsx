@@ -13,6 +13,7 @@ const GLOB_MAP = {
   science: import.meta.glob("../data/science/*.json"),
   mathematics: import.meta.glob("../data/mathematics/*.json"),
   history: import.meta.glob("../data/history/*.json"),
+  english: import.meta.glob("../data/english/*.json"),
 };
 
 /**
