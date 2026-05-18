@@ -1,0 +1,346 @@
+{
+    "id": "pronouns_exercise_3a",
+    "title": "Pronouns Exercise 3(A)",
+    "subject": "English Grammar",
+    "subjectIcon": "📘",
+    "totalQuestions": 56,
+    "timeLimit": 60,
+    "questions": [
+      {
+        "id": "q1",
+        "question": "_____ are going to the park.",
+        "options": ["She", "They", "He", "It"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q2",
+        "question": "I saw John and Mary. _____ were at the mall.",
+        "options": ["We", "He", "They", "She"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q3",
+        "question": "_____ is my best friend.",
+        "options": ["He", "They", "We", "Us"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q4",
+        "question": "Can you help _____ with the homework?",
+        "options": ["us", "he", "they", "she"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q5",
+        "question": "Mary is very kind. _____ helps everyone.",
+        "options": ["They", "We", "He", "She"],
+        "correctAnswer": 3
+      },
+      {
+        "id": "q6",
+        "question": "_____ are playing soccer in the field.",
+        "options": ["She", "They", "He", "It"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q7",
+        "question": "These keys are _____.",
+        "options": ["his", "her", "their", "our"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q8",
+        "question": "I can't find my book. Have you seen _____?",
+        "options": ["she", "them", "it", "us"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q9",
+        "question": "_____ is reading a book in the library.",
+        "options": ["They", "She", "We", "Them"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q10",
+        "question": "The teacher asked _____ to be quiet.",
+        "options": ["she", "them", "he", "it"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q11",
+        "question": "_____ enjoy playing video games.",
+        "options": ["She", "He", "We", "It"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q12",
+        "question": "Can _____ come to the party tonight?",
+        "options": ["us", "them", "we", "him"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q13",
+        "question": "_____ is very happy with the gift.",
+        "options": ["They", "She", "We", "Them"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q14",
+        "question": "Please give _____ your attention.",
+        "options": ["they", "he", "she", "us"],
+        "correctAnswer": 3
+      },
+      {
+        "id": "q15",
+        "question": "_____ has a lot of homework to do.",
+        "options": ["They", "We", "He", "Us"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q16",
+        "question": "_____ are going on a trip next week.",
+        "options": ["Us", "She", "It", "We"],
+        "correctAnswer": 3
+      },
+      {
+        "id": "q17",
+        "question": "My brother is taller than _____.",
+        "options": ["he", "me", "she", "we"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q18",
+        "question": "_____ is going to rain soon.",
+        "options": ["They", "He", "It", "We"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q19",
+        "question": "_____ left their books on the table.",
+        "options": ["They", "She", "He", "Us"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q20",
+        "question": "Please tell _____ the truth.",
+        "options": ["they", "we", "his", "us"],
+        "correctAnswer": 3
+      },
+      {
+        "id": "q21",
+        "question": "The yellow saree is _____.",
+        "options": ["hers", "its", "ours", "their"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q22",
+        "question": "_____ is the best player in the team.",
+        "options": ["They", "He", "We", "Them"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q23",
+        "question": "_____ is going to the store to buy groceries.",
+        "options": ["We", "They", "She", "Us"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q24",
+        "question": "Do _____ know where the library is?",
+        "options": ["them", "he", "you", "she"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q25",
+        "question": "My friends and I brought _____ lunch to school.",
+        "options": ["our", "their", "her", "his"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q26",
+        "question": "_____ is a beautiful day today.",
+        "options": ["They", "It", "We", "She"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q27",
+        "question": "Can you pass _____ the salt, please?",
+        "options": ["us", "they", "she", "them"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q28",
+        "question": "That book is _____.",
+        "options": ["yours", "your", "you", "yourself"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q29",
+        "question": "_____ is my grandfather.",
+        "options": ["He", "His", "Him", "Himself"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q30",
+        "question": "_____ are looking for our car.",
+        "options": ["Us", "Ourselves", "We", "Our"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q31",
+        "question": "If you know _____ is in a problem, you should help him.",
+        "options": ["somewhere", "someone", "something", "some"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q32",
+        "question": "_____ do you want to meet?",
+        "options": ["Who", "Which", "Whom", "Where"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q33",
+        "question": "_____ fruit do you like the most?",
+        "options": ["Who", "What", "Where", "Which"],
+        "correctAnswer": 3
+      },
+      {
+        "id": "q34",
+        "question": "_____ comes the bus!",
+        "options": ["Here", "There", "It", "That"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q35",
+        "question": "Can you hear _____?",
+        "options": ["I", "me", "myself", "mine"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q36",
+        "question": "I have been looking for my diary, but I can't see it _____.",
+        "options": ["anyone", "anybody", "anything", "anywhere"],
+        "correctAnswer": 3
+      },
+      {
+        "id": "q37",
+        "question": "We are close friends and help _____ in bad times.",
+        "options": ["nobody", "him", "one", "each other"],
+        "correctAnswer": 3
+      },
+      {
+        "id": "q38",
+        "question": "Please solve your problems _____.",
+        "options": ["yours", "you", "yourself", "your"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q39",
+        "question": "The children were running here and there teasing _____.",
+        "options": ["one another", "other", "another", "anyone"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q40",
+        "question": "She _____ is responsible for her fate.",
+        "options": ["herselves", "herself", "hers", "her's"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q41",
+        "question": "John and his brother love _____.",
+        "options": ["each other", "one another", "each another", "one other"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q42",
+        "question": "The child accidentally locked _____ in the room.",
+        "options": ["themselves", "ourselves", "himself", "yourself"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q43",
+        "question": "This pen is yours and that pen is _____.",
+        "options": ["her", "hers", "her's", "hers'"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q44",
+        "question": "_____ shoes have been washed.",
+        "options": ["Yourself", "Yours", "Your", "Yourselves"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q45",
+        "question": "All the students were punished and were not allowed to talk to _____.",
+        "options": ["each other", "each another", "one other", "one another"],
+        "correctAnswer": 3
+      },
+      {
+        "id": "q46",
+        "question": "Joseph is ill. _____ won't come to the school for two days.",
+        "options": ["He", "His", "Him", "Himself"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q47",
+        "question": "Sarah is the girl _____ stole my watch.",
+        "options": ["which", "whose", "whom", "who"],
+        "correctAnswer": 3
+      },
+      {
+        "id": "q48",
+        "question": "_____ are few paintings made by a famous painter.",
+        "options": ["This", "That", "These", "Those"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q49",
+        "question": "I love _____ in my family.",
+        "options": ["anyone", "one", "anybody", "everyone"],
+        "correctAnswer": 3
+      },
+      {
+        "id": "q50",
+        "question": "_____ of us has completed the assignment.",
+        "options": ["Nothing", "Nobody", "Nowhere", "None"],
+        "correctAnswer": 3
+      },
+      {
+        "id": "q51",
+        "question": "_____ is standing at the gate?",
+        "options": ["Who", "Whom", "Which", "Whose"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q52",
+        "question": "Is she the girl _____ won the first prize?",
+        "options": ["that", "whom", "which", "who"],
+        "correctAnswer": 3
+      },
+      {
+        "id": "q53",
+        "question": "After school, you and _____ must discuss a few things.",
+        "options": ["him", "me", "I", "we"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q54",
+        "question": "This is the boy _____ parents have died.",
+        "options": ["whose", "who", "whom", "his"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q55",
+        "question": "They were angry with _____ for their silly mistake.",
+        "options": ["ourself", "themselves", "itself", "yourself"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q56",
+        "question": "They were angry with _____ for their silly mistakes.",
+        "options": ["him", "their", "ourself", "themselves"],
+        "correctAnswer": 3
+      }
+    ]
+  }
