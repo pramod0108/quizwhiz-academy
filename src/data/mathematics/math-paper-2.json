@@ -1,28 +1,231 @@
 {
-  "id": "math_paper_2",
-  "title": "Math Paper 2",
+  "id": "area_perimeter_master_paper",
+  "title": "Area and Perimeter Complete Question Bank",
   "subject": "Mathematics",
-  "subjectIcon": "➕",
-  "totalQuestions": 3,
-  "timeLimit": 30,
+  "subjectIcon": "📐",
+  "totalQuestions": 36,
+  "timeLimit": 60,
   "questions": [
     {
       "id": "q1",
-      "question": "What is the area of a rectangle with a length of 9 cm and a width of 4 cm?",
-      "options": ["26 cm²", "30 cm²", "36 cm²", "40 cm²"],
-      "correctAnswer": 2
+      "question": "The area of the floor of a rectangular room is 630 m². If the breadth of the floor is 18 m, find its length.",
+      "options": ["25 m", "35 m", "40 m", "45 m"],
+      "correctAnswer": 1
     },
     {
       "id": "q2",
-      "question": "What is the next prime number after 13?",
-      "options": ["14", "15", "16", "17"],
+      "question": "A square is formed by bending a 112 cm long wire. The area of this square is:",
+      "options": ["412 cm²", "484 cm²", "576 cm²", "784 cm²"],
       "correctAnswer": 3
     },
     {
       "id": "q3",
-      "question": "If a bag of apples costs £2.50 and you buy 4 bags, how much do you spend in total?",
-      "options": ["£8.00", "£9.00", "£10.00", "£11.00"],
+      "question": "A rectangular path of 60 m length and 3 m width is covered by square tiles of side length 25 cm each. Find the number of tiles used to construct the path.",
+      "options": ["2250", "1440", "2880", "1200"],
       "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "A boy runs around a square field of area 625 m². How much distance will he run if he takes four rounds of the field?",
+      "options": ["400 m", "600 m", "800 m", "1000 m"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q5",
+      "question": "A room is 8 m long and 5 m broad. Find the cost of carpeting its floor at the rate of ₹150 per m².",
+      "options": ["₹4000", "₹6000", "₹8000", "₹10000"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "The length and breadth of a rectangle are 18 m and 8 m respectively. If the area of a square is four times the area of this rectangle, find the length of each side of the square.",
+      "options": ["16 m", "20 m", "24 m", "28 m"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "The area of a rectangle is 450 m² and its breadth is 18 m. The perimeter of the rectangle is:",
+      "options": ["86 m", "72 m", "45 m", "64 m"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "How much distance Aman will cover if he takes three rounds of a square park whose length of each side is 50 m?",
+      "options": ["450 m", "500 m", "550 m", "600 m"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q9",
+      "question": "The perimeter of a square park is 60 m. Find the cost of levelling its floor at the rate of ₹12 per square metre.",
+      "options": ["₹2400", "₹2500", "₹2700", "₹2800"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q10",
+      "question": "A rectangular park has a perimeter of 80 m and a length of 26 m. What is its area?",
+      "options": ["400 m²", "364 m²", "472 m²", "500 m²"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "A square playground has each side of length 20 metres. If the cost of fencing around the playground is ₹12 per metre, find the total cost of fencing.",
+      "options": ["₹960", "₹980", "₹1020", "₹1040"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q12",
+      "question": "A square tile has each side of length 10 cm, and an equilateral triangular plate has each side of length 13 cm. Which has a greater perimeter and by how much?",
+      "options": ["Square tile; 1 cm", "Square tile; 3 cm", "Triangular plate; 1 cm", "Triangular plate; 3 cm"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q13",
+      "question": "If the length of each side of a pentagon is 18 m, find its perimeter.",
+      "options": ["36 m", "54 m", "72 m", "90 m"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q14",
+      "question": "An equilateral triangle has each side of length x cm. If its perimeter is 60 cm, what is the value of x?",
+      "options": ["10 cm", "15 cm", "20 cm", "30 cm"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q15",
+      "question": "The perimeter of a square is 96 cm. If the length of each side is reduced by 6 cm, what is the new perimeter of the square?",
+      "options": ["72 cm", "76 cm", "80 cm", "84 cm"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "A rectangle has a perimeter of 56 cm. If the length is 2 cm more than the breadth, find the dimensions of the rectangle.",
+      "options": [
+        "Length = 14 cm, Breadth = 12 cm",
+        "Length = 15 cm, Breadth = 13 cm",
+        "Length = 18 cm, Breadth = 16 cm",
+        "Length = 13 cm, Breadth = 15 cm"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "The area of a shape is the amount of ______ it covers.",
+      "options": ["space", "length", "breadth", "height"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "The formula for the area of a rectangle is: Area = ______ × ______.",
+      "options": ["length × breadth", "side × side", "2 × length", "breadth × breadth"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "A square whose each side is 6 cm has an area of ______ cm².",
+      "options": ["24", "30", "36", "42"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q20",
+      "question": "If a rectangle has an area of 36 cm² and its width is 4 cm, then its length is ______ cm.",
+      "options": ["6", "7", "8", "9"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q21",
+      "question": "The formula for the area of a square is: Area = ______ × ______.",
+      "options": ["length × breadth", "side × side", "2 × side", "4 × side"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q22",
+      "question": "If l is the length and b is the breadth of a rectangle, then its perimeter is ______.",
+      "options": ["l + b", "2(l + b)", "l × b", "4l"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q23",
+      "question": "If each side of an equilateral triangle is ‘a’, then its perimeter is ______.",
+      "options": ["a", "2a", "3a", "4a"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q24",
+      "question": "The perimeter of a square with each side of length x is ______.",
+      "options": ["2x", "3x", "4x", "x²"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q25",
+      "question": "If each side of a hexagon is A, then its perimeter is ______.",
+      "options": ["4A", "5A", "6A", "7A"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q26",
+      "question": "If each side of a pentagon is M, then its perimeter is ______.",
+      "options": ["3M", "4M", "5M", "6M"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q27",
+      "question": "The perimeter of a rectangle is the sum of all its ______.",
+      "options": ["angles", "sides", "corners", "areas"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q28",
+      "question": "A square has ______ equal sides.",
+      "options": ["2", "3", "4", "5"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q29",
+      "question": "The area of a square of side 8 cm is ______ cm².",
+      "options": ["16", "32", "64", "80"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q30",
+      "question": "The perimeter of a square of side 9 cm is ______ cm.",
+      "options": ["18", "27", "36", "45"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q31",
+      "question": "The area of a rectangle with length 12 cm and breadth 5 cm is ______ cm².",
+      "options": ["50", "55", "60", "65"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q32",
+      "question": "The perimeter of a rectangle with length 10 cm and breadth 6 cm is ______ cm.",
+      "options": ["16", "24", "32", "40"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q33",
+      "question": "A triangle with all equal sides is called an ______ triangle.",
+      "options": ["isosceles", "right", "equilateral", "scalene"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q34",
+      "question": "The area of a figure is measured in ______ units.",
+      "options": ["linear", "square", "cubic", "round"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q35",
+      "question": "Perimeter is measured in ______ units.",
+      "options": ["square", "cubic", "linear", "area"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q36",
+      "question": "The perimeter of a hexagon with side 7 cm is ______ cm.",
+      "options": ["35", "42", "49", "56"],
+      "correctAnswer": 1
     }
   ]
 }
