@@ -1,0 +1,250 @@
+{
+    "id": "collective_nouns_paper_1",
+    "title": "Collective Nouns Quiz",
+    "subject": "English Grammar",
+    "subjectIcon": "📘",
+    "totalQuestions": 40,
+    "timeLimit": 40,
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the collective noun for soldiers?",
+        "options": ["Pack", "Army", "Troop", "Crew"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q2",
+        "question": "What is the collective noun for ships or cars?",
+        "options": ["Fleet", "Gang", "Band", "String"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q3",
+        "question": "What is the collective noun for wolves?",
+        "options": ["School", "Pack", "Mob", "Crowd"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q4",
+        "question": "What is the collective noun for keys?",
+        "options": ["Bunch", "Bundle", "Atlas", "Choir"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q5",
+        "question": "What is the collective noun for robbers?",
+        "options": ["Gang", "Class", "Range", "Flight"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q6",
+        "question": "What is the collective noun for musicians?",
+        "options": ["Band", "Mob", "Board", "Crowd"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q7",
+        "question": "What is the collective noun for cattle?",
+        "options": ["Pack", "Team", "Herd", "Swarm"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q8",
+        "question": "What is the collective noun for books?",
+        "options": ["Library", "Atlas", "Choir", "Colony"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q9",
+        "question": "What is the collective noun for stars or filmstars?",
+        "options": ["Galaxy", "Crew", "Hail", "Flight"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q10",
+        "question": "What is the collective noun for birds?",
+        "options": ["Gang", "Flight", "Army", "Mob"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q11",
+        "question": "What is the collective noun for scouts or warriors?",
+        "options": ["Troop", "Pride", "Crew", "Class"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q12",
+        "question": "What is the collective noun for pearls?",
+        "options": ["String", "Deck", "Range", "Board"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q13",
+        "question": "What is the collective noun for crows?",
+        "options": ["Swarm", "Murder", "Mob", "Team"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q14",
+        "question": "What is the collective noun for employees?",
+        "options": ["Staff", "Pack", "Choir", "Quiver"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q15",
+        "question": "What is the collective noun for sticks?",
+        "options": ["Bundle", "Band", "Atlas", "Gang"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q16",
+        "question": "What is the collective noun for lions?",
+        "options": ["Pride", "Crew", "Mob", "Troop"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q17",
+        "question": "What is the collective noun for sheep?",
+        "options": ["Herd", "Flock", "Swarm", "Board"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q18",
+        "question": "What is the collective noun for bees or ants?",
+        "options": ["Swarm", "Choir", "Pack", "Class"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q19",
+        "question": "What is the collective noun for arrows?",
+        "options": ["String", "Quiver", "Crew", "Range"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q20",
+        "question": "What is the collective noun for paper?",
+        "options": ["Ream", "Deck", "Library", "Atlas"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q21",
+        "question": "What is the collective noun for sailors?",
+        "options": ["Crew", "Mob", "Gang", "Pack"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q22",
+        "question": "What is the collective noun for ants?",
+        "options": ["Troop", "Colony", "Flight", "Pride"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q23",
+        "question": "What is the collective noun for directors?",
+        "options": ["Board", "Team", "Gang", "Swarm"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q24",
+        "question": "What is the collective noun for judges?",
+        "options": ["Panel", "Band", "Class", "Mob"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q25",
+        "question": "What is the collective noun for people?",
+        "options": ["Crowd", "Choir", "Pack", "String"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q26",
+        "question": "What is the collective noun for players?",
+        "options": ["Crew", "Team", "Gang", "Range"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q27",
+        "question": "What is the collective noun for beauties or ladies?",
+        "options": ["Bevy", "Board", "Atlas", "School"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q28",
+        "question": "What is the collective noun for students?",
+        "options": ["Class", "Flight", "Pack", "Mob"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q29",
+        "question": "What is the collective noun for geese?",
+        "options": ["Gaggle", "Crew", "Band", "Choir"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q30",
+        "question": "What is the collective noun for dancers or performers?",
+        "options": ["Troupe", "Swarm", "Board", "Range"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q31",
+        "question": "What is the collective noun for soldiers?",
+        "options": ["Regiment", "Pack", "Mob", "Class"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q32",
+        "question": "What is the collective noun for cards?",
+        "options": ["Deck", "Bundle", "Crew", "Galaxy"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q33",
+        "question": "What is the collective noun for mountains?",
+        "options": ["Range", "Choir", "Gang", "Atlas"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q34",
+        "question": "What is the collective noun for pigeons?",
+        "options": ["Flock", "Mob", "Crew", "School"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q35",
+        "question": "What is the collective noun for penguins?",
+        "options": ["Colony", "Pack", "Class", "Board"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q36",
+        "question": "What is the collective noun for friends?",
+        "options": ["Party", "Band", "Galaxy", "Deck"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q37",
+        "question": "What is the collective noun for fish?",
+        "options": ["School", "Shoal", "Both A and B", "Crowd"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q38",
+        "question": "What is the collective noun for maps?",
+        "options": ["Atlas", "Flight", "Pride", "Mob"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q39",
+        "question": "What is the collective noun for bullets?",
+        "options": ["Hail", "Pack", "Choir", "Class"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "q40",
+        "question": "What is the collective noun for hooligans?",
+        "options": ["Mob", "Team", "Crew", "Range"],
+        "correctAnswer": 0
+      }
+    ]
+  }
