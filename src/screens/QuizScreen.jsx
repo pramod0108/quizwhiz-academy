@@ -4,17 +4,18 @@ import { formatTime, getQuestionStatus } from "../utils/quizHelpers";
 
 const OPTION_LABELS = ["A", "B", "C", "D"];
 
+// Palette colour map — matches the legend shown on screen
 const STATUS_COLOUR = {
-  "not-visited": "#94A3B8",
-  attempted: "var(--green)",
-  marked: "var(--yellow)",
-  "attempted-marked": "var(--purple)",
+  "not-visited": "var(--grey)",
+  skipped: "var(--yellow)",
+  correct: "var(--green)",
+  wrong: "var(--red)",
 };
 const STATUS_TEXT = {
   "not-visited": "#fff",
-  attempted: "#fff",
-  marked: "#1E1B4B",
-  "attempted-marked": "#fff",
+  skipped: "#1E1B4B",
+  correct: "#fff",
+  wrong: "#fff",
 };
 
 function getOptionFeedback(optionIndex, question, selectedOption) {
@@ -33,7 +34,7 @@ export default function QuizScreen() {
     setCurrentQuestionIndex,
     answers,
     selectAnswer,
-    markForReview,
+    visitQuestion,
     submitQuiz,
     navigateTo,
   } = useQuiz();
@@ -55,7 +56,6 @@ export default function QuizScreen() {
   const currentAnswer = question ? answers?.[question.id] : null;
   const selectedOption = currentAnswer?.selectedOption ?? null;
   const isAnswered = selectedOption !== null && selectedOption !== undefined;
-  const isMarked = Boolean(currentAnswer?.markedForReview);
 
   const getElapsed = useCallback(
     () => Math.round((Date.now() - startTimeRef.current) / 1000),
@@ -102,6 +102,13 @@ export default function QuizScreen() {
     window.addEventListener("beforeunload", handler);
     return () => window.removeEventListener("beforeunload", handler);
   }, []);
+
+  // Mark the active question as visited so the palette can distinguish
+  // "Skipped" (visited, no answer) from "Not Visited".
+  useEffect(() => {
+    if (question?.id) visitQuestion(question.id);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [question?.id]);
 
   const goTo = (i) => {
     setCurrentQuestionIndex(i);
@@ -441,8 +448,12 @@ export default function QuizScreen() {
         }
         .qs-palette-btn:hover { transform: scale(1.15); }
         .qs-palette-btn.active-q {
-          outline: 3px solid var(--text-dark);
+          /* "Current" question — overrides any status colour */
+          background: var(--blue) !important;
+          color: #fff !important;
+          outline: 3px solid var(--blue);
           outline-offset: 2px;
+          box-shadow: 0 0 0 4px var(--blue-light);
         }
 
         /* ─────────────────────────────────────────────────────
@@ -488,13 +499,6 @@ export default function QuizScreen() {
           box-shadow: var(--shadow-hover);
         }
         .qs-nav-btn.outline:disabled { opacity: 0.35; cursor: not-allowed; }
-        .qs-nav-btn.mark {
-          background: var(--yellow-light);
-          color: #92400E;
-          border-color: var(--yellow);
-        }
-        .qs-nav-btn.mark.active { background: var(--yellow); color: #1E1B4B; }
-        .qs-nav-btn.mark:hover  { transform: translateY(-2px); }
 
         /* Submit button */
         .qs-submit-btn {
@@ -596,12 +600,6 @@ export default function QuizScreen() {
           .qs-header { gap: 6px; }
           .qs-nav-bar { gap: 5px; }
           .qs-nav-group.right { margin-left: auto; }
-          /* Shrink mark button label on very small screens */
-          .qs-mark-label-full { display: none; }
-          .qs-mark-label-short { display: inline; }
-        }
-        @media (min-width: 481px) {
-          .qs-mark-label-short { display: none; }
         }
       `}</style>
 
@@ -624,6 +622,23 @@ export default function QuizScreen() {
             <span className="qs-paper-title">{currentPaper.title}</span>
             <span className="qs-subject-badge">
               {currentSubject?.icon} {currentSubject?.name}
+              {currentPaper.attemptNumber > 1 && (
+                <span
+                  style={{
+                    marginLeft: "6px",
+                    background: "linear-gradient(135deg, var(--orange) 0%, var(--pink) 100%)",
+                    color: "var(--white)",
+                    borderRadius: "50px",
+                    padding: "1px 8px",
+                    fontSize: "0.68rem",
+                    fontWeight: 800,
+                    letterSpacing: "0.04em",
+                  }}
+                  aria-label={`Attempt number ${currentPaper.attemptNumber}`}
+                >
+                  🔁 #{currentPaper.attemptNumber}
+                </span>
+              )}
             </span>
           </div>
 
@@ -758,15 +773,16 @@ export default function QuizScreen() {
 
               <div className="qs-legend" role="list">
                 {[
+                  { status: "correct", label: "Correct" },
+                  { status: "wrong", label: "Wrong" },
+                  { status: "skipped", label: "Skipped" },
+                  { status: "current", label: "Current", colour: "var(--blue)" },
                   { status: "not-visited", label: "Not Visited" },
-                  { status: "attempted", label: "Attempted" },
-                  { status: "marked", label: "Marked for Review" },
-                  { status: "attempted-marked", label: "Attempted + Marked" },
-                ].map(({ status, label }) => (
+                ].map(({ status, label, colour }) => (
                   <div className="qs-legend-item" key={status} role="listitem">
                     <span
                       className="qs-legend-dot"
-                      style={{ background: STATUS_COLOUR[status] }}
+                      style={{ background: colour ?? STATUS_COLOUR[status] }}
                       aria-hidden="true"
                     />
                     {label}
@@ -780,7 +796,7 @@ export default function QuizScreen() {
                 aria-label="Question navigator"
               >
                 {questions.map((q, i) => {
-                  const status = getQuestionStatus(q.id, answers);
+                  const status = getQuestionStatus(q, answers);
                   const isCurrent = i === currentQuestionIndex;
                   return (
                     <button
@@ -792,7 +808,7 @@ export default function QuizScreen() {
                       }}
                       onClick={() => goTo(i)}
                       role="listitem"
-                      aria-label={`Question ${i + 1}, ${status.replace(/-/g, " ")}`}
+                      aria-label={`Question ${i + 1}, ${isCurrent ? "current" : status.replace(/-/g, " ")}`}
                       aria-current={isCurrent ? "true" : undefined}
                     >
                       {i + 1}
@@ -822,23 +838,6 @@ export default function QuizScreen() {
               aria-label="Next question"
             >
               Next →
-            </button>
-          </div>
-
-          <div className="qs-nav-group">
-            <button
-              className={`qs-nav-btn mark${isMarked ? " active" : ""}`}
-              onClick={() => markForReview(question.id)}
-              aria-pressed={isMarked}
-              aria-label={isMarked ? "Unmark for review" : "Mark for review"}
-            >
-              🔖
-              <span className="qs-mark-label-full">
-                {isMarked ? " Marked" : " Mark"}
-              </span>
-              <span className="qs-mark-label-short">
-                {isMarked ? " ✓" : ""}
-              </span>
             </button>
           </div>
 

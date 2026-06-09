@@ -1,0 +1,136 @@
+{
+  "id": "playground_name_of_different_sports_1",
+  "title": "Playground Name of Different Sports",
+  "subject": "General Knowledge",
+  "subjectIcon": "🏟️",
+  "totalQuestions": 21,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which sports are played in an Arena?",
+      "options": ["Cricket and Football", "Horse Riding and Polo", "Golf and Baseball", "Swimming and Boxing"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Table Tennis is played on which playground?",
+      "options": ["Court", "Field", "Board", "Pitch"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "Golf is played on which playground?",
+      "options": ["Course", "Court", "Track", "Field"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "question": "Tennis, Volleyball, Badminton and Squash are played on a ______.",
+      "options": ["Field", "Court", "Board", "Ring"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "Baseball is played on which playground?",
+      "options": ["Diamond", "Pitch", "Track", "Pool"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "question": "Football and Hockey are played on a ______.",
+      "options": ["Court", "Field", "Ring", "Course"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Judo, Karate and Taekwondo are played on a ______.",
+      "options": ["Mat", "Court", "Track", "Field"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "Cricket is played on which playground?",
+      "options": ["Field", "Pitch", "Court", "Ring"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Swimming is performed in a ______.",
+      "options": ["Track", "Pool", "Field", "Ring"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "Boxing and Wrestling are played in a ______.",
+      "options": ["Pool", "Ring", "Court", "Pitch"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Skating, Curling and Ice Hockey are played in a ______.",
+      "options": ["Arena", "Field", "Rink", "Course"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q12",
+      "question": "Athletics events are held on a ______.",
+      "options": ["Track", "Court", "Field", "Ring"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "Cycling is performed in a ______.",
+      "options": ["Velodrome", "Track", "Field", "Course"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "Curling is played in which playground?",
+      "options": ["Court", "Ring", "Rink", "Track"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q15",
+      "question": "Ice Hockey is played in which playground?",
+      "options": ["Field", "Rink", "Court", "Pool"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Wrestling is played in which playground?",
+      "options": ["Ring", "Pitch", "Field", "Course"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "Badminton is played on which playground?",
+      "options": ["Court", "Field", "Ring", "Track"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "Netball is played on which playground?",
+      "options": ["Field", "Court", "Diamond", "Pool"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "Volleyball is played on which playground?",
+      "options": ["Pitch", "Field", "Court", "Track"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q20",
+      "question": "Polo is played in which playground?",
+      "options": ["Arena", "Rink", "Pool", "Diamond"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q21",
+      "question": "Which pair of sports is played in an Arena?",
+      "options": ["Cricket and Hockey", "Horse Riding and Polo", "Swimming and Cycling", "Baseball and Golf"],
+      "correctAnswer": 1
+    }
+  ]
+}

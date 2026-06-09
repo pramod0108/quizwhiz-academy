@@ -15,7 +15,7 @@ export function formatTime(seconds) {
 /**
  * Calculates quiz score results from the answers map and the paper object.
  *
- * @param {Object} answers - { [questionId]: { selectedOption: number|null, markedForReview: boolean } }
+ * @param {Object} answers - { [questionId]: { selectedOption: number|null, visited: boolean } }
  * @param {Object} paper   - The full paper object from JSON, expected to have:
  *                           paper.questions: Array<{ id, correctOption: number, marks?: number, negativeMarks?: number }>
  *                           paper.marksPerQuestion: number  (fallback if per-question marks not set)
@@ -105,29 +105,26 @@ export function getPerformanceMessage(percentage) {
 /**
  * Derives the palette status of a single question for the question navigator.
  *
- * Status values:
- *   "not-visited"      — the question has never been opened (no entry in answers, or entry with default values)
- *   "attempted"        — an option is selected but NOT marked for review
- *   "marked"           — no option selected, but flagged for review
- *   "attempted-marked" — an option is selected AND flagged for review
+ * Because options lock instantly on click, we can show real result-based
+ * colours during the quiz instead of a generic "attempted" colour.
  *
- * @param {string|number} questionId
- * @param {Object} answers - the full answers map from context
- * @returns {"not-visited"|"attempted"|"marked"|"attempted-marked"}
+ * Status values:
+ *   "not-visited" — the question has never been opened
+ *   "skipped"     — visited but no option selected
+ *   "correct"     — selected the right option
+ *   "wrong"       — selected the wrong option
+ *
+ * @param {Object} question - the question object (needs correctAnswer)
+ * @param {Object} answers  - the full answers map from context
+ * @returns {"not-visited"|"skipped"|"correct"|"wrong"}
  */
-export function getQuestionStatus(questionId, answers) {
-  const entry = answers?.[questionId];
+export function getQuestionStatus(question, answers) {
+  const entry = answers?.[question?.id];
 
-  if (!entry) {
-    return "not-visited";
-  }
+  if (!entry || !entry.visited) return "not-visited";
 
-  const hasAnswer =
-    entry.selectedOption !== null && entry.selectedOption !== undefined;
-  const isMarked = Boolean(entry.markedForReview);
+  const selected = entry.selectedOption;
+  if (selected === null || selected === undefined) return "skipped";
 
-  if (hasAnswer && isMarked) return "attempted-marked";
-  if (hasAnswer) return "attempted";
-  if (isMarked) return "marked";
-  return "not-visited";
+  return selected === question.correctAnswer ? "correct" : "wrong";
 }

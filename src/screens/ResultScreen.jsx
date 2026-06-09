@@ -73,7 +73,7 @@ function StatCard({ emoji, label, value, bgColor, textColor }) {
 // ─── Component ─────────────────────────────────────────────────────────────────
 
 export default function ResultScreen() {
-  const { userName, currentPaper, answers, timeTaken, navigateTo, resetQuiz } = useQuiz();
+  const { userName, currentPaper, answers, timeTaken, navigateTo, resetQuiz, reattemptIncorrect } = useQuiz();
 
   const results = calculateResults(answers, currentPaper);
   const { total, attempted, correct, wrong, skipped, score, percentage } = results;
@@ -82,8 +82,14 @@ export default function ResultScreen() {
   const percentColor = getPercentageColor(percentage);
   const percentBg = getPercentageBg(percentage);
 
+  // Number of questions still to be mastered. When 0, hide Re-Attempt.
+  const remaining = wrong + skipped;
+  const showReattempt = remaining > 0;
+  const attemptNumber = currentPaper?.attemptNumber ?? 1;
+
   const handleReview = () => navigateTo("review");
   const handleHome = () => { resetQuiz(); navigateTo("home"); };
+  const handleReattempt = () => reattemptIncorrect();
 
   return (
     <>
@@ -201,6 +207,25 @@ export default function ResultScreen() {
                 {currentPaper.subjectIcon && `${currentPaper.subjectIcon} `}
                 {currentPaper.title}
               </span>
+            )}
+
+            {/* Attempt-number pill — only shown from 2nd attempt onwards */}
+            {attemptNumber > 1 && (
+              <div style={{ marginTop: "8px" }}>
+                <span style={{
+                  display: "inline-block",
+                  background: "linear-gradient(135deg, var(--orange) 0%, var(--pink) 100%)",
+                  color: "var(--white)",
+                  borderRadius: "50px",
+                  padding: "4px 14px",
+                  fontSize: "0.78rem",
+                  fontWeight: 800,
+                  letterSpacing: "0.04em",
+                  boxShadow: "0 4px 12px rgba(249,115,22,0.30)",
+                }}>
+                  🔁 Attempt #{attemptNumber}
+                </span>
+              </div>
             )}
           </div>
 
@@ -322,10 +347,39 @@ export default function ResultScreen() {
             {/* ── Action buttons ── */}
             <div style={{
               display: "flex",
-              gap: "14px",
+              gap: "12px",
               flexWrap: "wrap",
               justifyContent: "center",
             }}>
+              {showReattempt && (
+                <button
+                  className="result-btn"
+                  onClick={handleReattempt}
+                  aria-label={`Re-attempt the ${remaining} remaining ${remaining === 1 ? "question" : "questions"}`}
+                  style={{
+                    flex: "1 1 100%",
+                    background: "linear-gradient(135deg, var(--orange) 0%, var(--pink) 100%)",
+                    color: "var(--white)",
+                    border: "none",
+                    borderRadius: "50px",
+                    padding: "14px 24px",
+                    fontSize: "1.02rem",
+                    fontWeight: 900,
+                    fontFamily: "'Nunito', sans-serif",
+                    cursor: "pointer",
+                    boxShadow: "0 6px 20px rgba(249,115,22,0.35)",
+                    transition: "var(--transition)",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    gap: "8px",
+                    letterSpacing: "0.01em",
+                  }}
+                >
+                  🔁 Re-Attempt {remaining} {remaining === 1 ? "Question" : "Questions"}
+                </button>
+              )}
+
               <button
                 className="result-btn"
                 onClick={handleReview}
@@ -376,6 +430,24 @@ export default function ResultScreen() {
                 Go to Home 🏠
               </button>
             </div>
+
+            {/* ── Perfect score celebration banner ── */}
+            {!showReattempt && attemptNumber > 1 && (
+              <div style={{
+                marginTop: "18px",
+                background: "linear-gradient(135deg, var(--green-light) 0%, #BBF7D0 100%)",
+                border: "2px solid var(--green)",
+                borderRadius: "var(--radius-sm)",
+                padding: "12px 18px",
+                textAlign: "center",
+                fontSize: "0.92rem",
+                fontWeight: 800,
+                color: "var(--green)",
+                animation: "popIn 0.5s cubic-bezier(0.34,1.56,0.64,1) both",
+              }}>
+                🌟 You mastered every question! Amazing persistence! 🌟
+              </div>
+            )}
 
           </div>
         </div>

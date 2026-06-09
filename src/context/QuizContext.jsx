@@ -85,7 +85,7 @@ function shufflePaper(paper) {
 
 const defaultAnswerEntry = () => ({
   selectedOption: null,
-  markedForReview: false,
+  visited: false,
 });
 
 const initialState = {
@@ -135,12 +135,63 @@ export function QuizProvider({ children }) {
   // ── startQuiz ─────────────────────────────────────────────────────────────
   // Shuffles question order + options, then starts the quiz.
   const startQuiz = (paper) => {
-    const shuffled = shufflePaper(paper);
+    // Reset attemptNumber to 1 for a fresh start (re-attempt path sets its own)
+    const fresh = { ...paper, attemptNumber: 1 };
+    const shuffled = shufflePaper(fresh);
     setCurrentPaper(shuffled);
     setAnswers(buildEmptyAnswers(shuffled));
     setQuizStatus("in-progress");
     setCurrentQuestionIndex(0);
     setTimeTaken(0);
+  };
+
+  // ── reattemptIncorrect ────────────────────────────────────────────────────
+  // Builds a new paper made up of only the questions the user got wrong,
+  // skipped, or never visited, then re-shuffles question + option order via
+  // shufflePaper. Time limit is scaled proportionally to the smaller question
+  // pool so the user still gets a fair amount of time per question.
+  const reattemptIncorrect = () => {
+    if (!currentPaper?.questions) return;
+
+    const incorrectQuestions = currentPaper.questions.filter((q) => {
+      const selected = answers?.[q.id]?.selectedOption;
+      // null / undefined → skipped or not visited
+      if (selected === null || selected === undefined) return true;
+      // selected something but not the correct option → wrong
+      return selected !== q.correctAnswer;
+    });
+
+    // Nothing left to re-attempt — bail (button shouldn't be visible anyway)
+    if (incorrectQuestions.length === 0) return;
+
+    // Preserve original time-per-question ratio; floor at 1 minute total
+    const originalTotal =
+      currentPaper.totalQuestions ?? currentPaper.questions.length;
+    const originalLimit = currentPaper.timeLimit ?? 30;
+    const timePerQ = originalTotal > 0 ? originalLimit / originalTotal : 1.5;
+    const scaledTimeLimit = Math.max(
+      1,
+      Math.ceil(incorrectQuestions.length * timePerQ),
+    );
+
+    const nextAttempt = (currentPaper.attemptNumber ?? 1) + 1;
+
+    const reattemptPaper = {
+      ...currentPaper,
+      questions: incorrectQuestions,
+      totalQuestions: incorrectQuestions.length,
+      timeLimit: scaledTimeLimit,
+      attemptNumber: nextAttempt,
+    };
+
+    // shufflePaper guarantees a fresh question order and fresh option order
+    const shuffled = shufflePaper(reattemptPaper);
+    setCurrentPaper(shuffled);
+    setAnswers(buildEmptyAnswers(shuffled));
+    setQuizStatus("in-progress");
+    setCurrentQuestionIndex(0);
+    setTimeTaken(0);
+    setCurrentScreen("quiz");
   };
 
   // ── submitQuiz ────────────────────────────────────────────────────────────
@@ -165,31 +216,24 @@ export function QuizProvider({ children }) {
         [questionId]: {
           ...(existing ?? defaultAnswerEntry()),
           selectedOption: optionIndex,
+          visited: true,
         },
       };
     });
   };
 
-  // ── markForReview ─────────────────────────────────────────────────────────
-  const markForReview = (questionId) => {
+  // ── visitQuestion ─────────────────────────────────────────────────────────
+  // Marks a question as "visited" so the palette can distinguish Skipped
+  // (visited but no answer) from Not Visited.
+  const visitQuestion = (questionId) => {
     setAnswers((prev) => {
       const entry = prev[questionId] ?? defaultAnswerEntry();
+      if (entry.visited) return prev;
       return {
         ...prev,
-        [questionId]: { ...entry, markedForReview: !entry.markedForReview },
+        [questionId]: { ...entry, visited: true },
       };
     });
-  };
-
-  // ── clearResponse — kept in context but NOT exposed in UI ─────────────────
-  const clearResponse = (questionId) => {
-    setAnswers((prev) => ({
-      ...prev,
-      [questionId]: {
-        ...(prev[questionId] ?? defaultAnswerEntry()),
-        selectedOption: null,
-      },
-    }));
   };
 
   // ── navigateTo ────────────────────────────────────────────────────────────
@@ -227,10 +271,10 @@ export function QuizProvider({ children }) {
     startQuiz,
     submitQuiz,
     selectAnswer,
-    markForReview,
-    clearResponse,
+    visitQuestion,
     navigateTo,
     resetQuiz,
+    reattemptIncorrect,
   };
 
   return <QuizContext.Provider value={value}>{children}</QuizContext.Provider>;

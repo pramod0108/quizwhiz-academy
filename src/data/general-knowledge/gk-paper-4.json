@@ -1,0 +1,131 @@
+{
+  "id": "first_in_india_gk_1",
+  "title": "First in India",
+  "subject": "General Knowledge",
+  "subjectIcon": "🇮🇳",
+  "totalQuestions": 11,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Who was the first Prime Minister of India?",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Sardar Vallabhbhai Patel",
+        "Subhas Chandra Bose"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Who was the first Deputy Prime Minister of India?",
+      "options": [
+        "Jawaharlal Nehru",
+        "Dr. Rajendra Prasad",
+        "Sardar Vallabhbhai Patel",
+        "Lal Bahadur Shastri"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "Who was the first President of India?",
+      "options": [
+        "Dr. Rajendra Prasad",
+        "Dr. Zakir Hussain",
+        "Dr. S. Radhakrishnan",
+        "V. V. Giri"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "question": "Who was the first Muslim President of India?",
+      "options": [
+        "A. P. J. Abdul Kalam",
+        "Dr. Zakir Hussain",
+        "Fakhruddin Ali Ahmed",
+        "Mohammad Hidayatullah"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "Who was the first Vice President of India?",
+      "options": [
+        "Dr. Rajendra Prasad",
+        "Dr. Zakir Hussain",
+        "Dr. Sarvepalli Radhakrishnan",
+        "B. D. Jatti"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q6",
+      "question": "Who was the first Home Minister of India?",
+      "options": [
+        "Sardar Vallabhbhai Patel",
+        "Jawaharlal Nehru",
+        "Dr. B. R. Ambedkar",
+        "Morarji Desai"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q7",
+      "question": "Who was the first Education Minister of India?",
+      "options": [
+        "Maulana Abul Kalam Azad",
+        "Dr. B. R. Ambedkar",
+        "C. Rajagopalachari",
+        "Sardar Vallabhbhai Patel"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "Who was the first Finance Minister of India?",
+      "options": [
+        "John Mathai",
+        "R. K. Shanmukham Chetty",
+        "Morarji Desai",
+        "T. T. Krishnamachari"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Who was the first Law Minister of India?",
+      "options": [
+        "Dr. B. R. Ambedkar",
+        "Jawaharlal Nehru",
+        "C. Rajagopalachari",
+        "Dr. Rajendra Prasad"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q10",
+      "question": "Who was the first Governor-General of India?",
+      "options": [
+        "Lord Mountbatten",
+        "Lord Curzon",
+        "Lord William Bentinck",
+        "Lord Dalhousie"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q11",
+      "question": "Who was the first Governor-General of Independent India?",
+      "options": [
+        "Lord William Bentinck",
+        "Lord Curzon",
+        "Lord Ripon",
+        "Lord Mountbatten"
+      ],
+      "correctAnswer": 3
+    }
+  ]
+}
