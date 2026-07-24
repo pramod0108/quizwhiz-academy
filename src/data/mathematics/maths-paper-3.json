@@ -1,0 +1,450 @@
+{
+  "id": "math_formula_revision_1",
+  "title": "All Maths Formulas - Quick Revision",
+  "subject": "Mathematics",
+  "subjectIcon": "📐",
+  "totalQuestions": 40,
+  "timeLimit": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Ratio means:",
+      "options": [
+        "First Quantity : Second Quantity",
+        "Addition of two quantities",
+        "Difference of two quantities",
+        "Product of two quantities"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q2",
+      "question": "The simplest ratio is obtained by dividing both terms by:",
+      "options": [
+        "LCM",
+        "HCF",
+        "Prime Number",
+        "10"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Percentage is calculated as:",
+      "options": [
+        "Value ÷ Total × 100",
+        "Total ÷ Value × 100",
+        "Value × Total",
+        "Total - Value"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "question": "Value is calculated by:",
+      "options": [
+        "Percentage × Total ÷ 100",
+        "Total ÷ Percentage",
+        "100 ÷ Percentage",
+        "Percentage + Total"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q5",
+      "question": "Total is calculated by:",
+      "options": [
+        "Value × 100 ÷ Percentage",
+        "Percentage × 100 ÷ Value",
+        "Value + Percentage",
+        "Value - Percentage"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "question": "Volume of a cuboid is:",
+      "options": [
+        "l × b × h",
+        "2(lb + bh + hl)",
+        "l + b + h",
+        "l × b"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q7",
+      "question": "Surface area of a cuboid is:",
+      "options": [
+        "2(lb + bh + hl)",
+        "l × b × h",
+        "6a²",
+        "4a"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "Volume of a cube is:",
+      "options": [
+        "a³",
+        "6a²",
+        "4a",
+        "2a²"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q9",
+      "question": "Surface area of a cube is:",
+      "options": [
+        "6a²",
+        "a³",
+        "4a²",
+        "2a²"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q10",
+      "question": "Area of a rectangle is:",
+      "options": [
+        "Length × Breadth",
+        "2(Length + Breadth)",
+        "Length + Breadth",
+        "Length × Length"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q11",
+      "question": "Length of a rectangle is:",
+      "options": [
+        "Area ÷ Breadth",
+        "Area ÷ Length",
+        "Perimeter ÷ 2",
+        "Breadth ÷ Area"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q12",
+      "question": "Breadth of a rectangle is:",
+      "options": [
+        "Area ÷ Length",
+        "Area ÷ Breadth",
+        "Perimeter ÷ 2",
+        "Length × Area"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "Simple Interest (S.I.) formula is:",
+      "options": [
+        "P × R × T ÷ 100",
+        "P + R + T",
+        "P × T",
+        "P × R"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "Principal (P) is:",
+      "options": [
+        "100 × S.I. ÷ (R × T)",
+        "P + S.I.",
+        "S.I. × R",
+        "R × T"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "Rate (R) is:",
+      "options": [
+        "100 × S.I. ÷ (P × T)",
+        "P × R × T",
+        "P + T",
+        "P ÷ T"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "Time (T) is:",
+      "options": [
+        "100 × S.I. ÷ (P × R)",
+        "P + R",
+        "P × T",
+        "R × T"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "Amount (A) is:",
+      "options": [
+        "P + S.I.",
+        "P - S.I.",
+        "P × S.I.",
+        "S.I. ÷ P"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "Profit is:",
+      "options": [
+        "S.P. - C.P.",
+        "C.P. - S.P.",
+        "S.P. + C.P.",
+        "C.P. ÷ S.P."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "Loss is:",
+      "options": [
+        "C.P. - S.P.",
+        "S.P. - C.P.",
+        "S.P. + C.P.",
+        "C.P. × S.P."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Profit % is:",
+      "options": [
+        "Profit ÷ C.P. × 100",
+        "Profit ÷ S.P. × 100",
+        "Profit × S.P.",
+        "Profit + C.P."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q21",
+      "question": "Loss % is:",
+      "options": [
+        "Loss ÷ C.P. × 100",
+        "Loss ÷ S.P. × 100",
+        "Loss + C.P.",
+        "Loss × S.P."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q22",
+      "question": "Average is:",
+      "options": [
+        "Sum of Observations ÷ Number of Observations",
+        "Sum × Number",
+        "Number ÷ Sum",
+        "Sum - Number"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q23",
+      "question": "Sum of numbers is:",
+      "options": [
+        "Average × Number of Observations",
+        "Average ÷ Number",
+        "Average + Number",
+        "Average - Number"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q24",
+      "question": "Average speed is:",
+      "options": [
+        "Total Distance ÷ Total Time",
+        "Distance × Time",
+        "Time ÷ Distance",
+        "Distance + Time"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q25",
+      "question": "Speed is:",
+      "options": [
+        "Distance ÷ Time",
+        "Distance × Time",
+        "Time ÷ Distance",
+        "Distance + Time"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q26",
+      "question": "Time is:",
+      "options": [
+        "Distance ÷ Speed",
+        "Distance × Speed",
+        "Speed ÷ Distance",
+        "Distance + Speed"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q27",
+      "question": "Distance is:",
+      "options": [
+        "Speed × Time",
+        "Speed ÷ Time",
+        "Time ÷ Speed",
+        "Speed + Time"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q28",
+      "question": "Perimeter of a triangle is:",
+      "options": [
+        "a + b + c",
+        "2(a + b)",
+        "3a",
+        "4a"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q29",
+      "question": "Perimeter of an equilateral triangle is:",
+      "options": [
+        "3 × Side",
+        "2 × Side",
+        "4 × Side",
+        "Side²"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q30",
+      "question": "Side of an equilateral triangle is:",
+      "options": [
+        "Perimeter ÷ 3",
+        "Perimeter ÷ 2",
+        "Perimeter ÷ 4",
+        "Perimeter × 3"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q31",
+      "question": "Perimeter of a rectangle is:",
+      "options": [
+        "2(l + b)",
+        "l × b",
+        "l + b",
+        "4l"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q32",
+      "question": "Length of a rectangle using perimeter is:",
+      "options": [
+        "Perimeter ÷ 2 - b",
+        "Perimeter ÷ 2 + b",
+        "Perimeter - b",
+        "Perimeter × b"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q33",
+      "question": "Breadth of a rectangle using perimeter is:",
+      "options": [
+        "Perimeter ÷ 2 - l",
+        "Perimeter ÷ 2 + l",
+        "Perimeter - l",
+        "Perimeter × l"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q34",
+      "question": "Perimeter of a square is:",
+      "options": [
+        "4 × Side",
+        "2 × Side",
+        "Side²",
+        "Side³"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q35",
+      "question": "Side of a square is:",
+      "options": [
+        "Perimeter ÷ 4",
+        "Perimeter ÷ 2",
+        "Perimeter × 4",
+        "Perimeter - 4"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q36",
+      "question": "In Simple Interest, P stands for:",
+      "options": [
+        "Principal",
+        "Percentage",
+        "Profit",
+        "Perimeter"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q37",
+      "question": "In Simple Interest, R stands for:",
+      "options": [
+        "Rate",
+        "Ratio",
+        "Rectangle",
+        "Radius"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q38",
+      "question": "In Simple Interest, T stands for:",
+      "options": [
+        "Time",
+        "Total",
+        "Triangle",
+        "Turnover"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q39",
+      "question": "Profit % and Loss % are always calculated on:",
+      "options": [
+        "Cost Price",
+        "Selling Price",
+        "Amount",
+        "Principal"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q40",
+      "question": "Which formula is used to find Average Speed?",
+      "options": [
+        "Total Distance ÷ Total Time",
+        "Distance ÷ Speed",
+        "Speed × Time",
+        "Average × Time"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}
