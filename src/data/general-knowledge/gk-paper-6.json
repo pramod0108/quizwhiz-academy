@@ -1,0 +1,373 @@
+{
+  "id": "famous_monuments_paper_1",
+  "title": "Famous Monuments",
+  "subject": "Static GK",
+  "subjectIcon": "🕌",
+  "totalQuestions": 33,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "The city of victory, Fatehpur Sikri in ______ was built during the glorious reign of the Mughals.",
+      "options": [
+        "Jaipur",
+        "Bidar",
+        "Aligarh",
+        "Agra"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q2",
+      "question": "Which of the following monuments is located in the state of Karnataka?",
+      "options": [
+        "Gol Gumbaz",
+        "Bara Imambara",
+        "Charminar",
+        "Qutub Minar"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q3",
+      "question": "Which of the following is not listed in UNESCO World Heritage Sites in India?",
+      "options": [
+        "Agra Fort",
+        "Sun Temple, Konark",
+        "Fatehpur Sikri",
+        "Group of Monuments at Mandu, Madhya Pradesh"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q4",
+      "question": "Which of the following Mughal Emperor shifted his imperial court and residence from Agra to Sikri, later renamed as Fatehpur Sikri?",
+      "options": [
+        "Akbar",
+        "Jahangir",
+        "Shahjahan",
+        "Aurangzeb"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q5",
+      "question": "Kailasa temple in the ______ Caves is the largest rock-cut monument in the world.",
+      "options": [
+        "Elephanta",
+        "Ajanta",
+        "Ellora",
+        "Karla"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q6",
+      "question": "Red Fort was built during the reign of ______.",
+      "options": [
+        "Akbar",
+        "Jahangir",
+        "Shahjahan",
+        "Aurangzeb"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "______ temple in Karnataka is the most extravagant architectural showpiece of Hampi.",
+      "options": [
+        "Meenakshi",
+        "Lingaraj",
+        "Vittala",
+        "Akshardham"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q8",
+      "question": "7 metre high sculpture known as 'Sadashiva', representing three aspects of Lord Shiva is found at ______ Caves.",
+      "options": [
+        "Khandagiri",
+        "Udayagiri",
+        "Bhimbetka",
+        "Elephanta"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q9",
+      "question": "Manora Fort is situated in:",
+      "options": [
+        "Madhya Pradesh",
+        "Rajasthan",
+        "Uttar Pradesh",
+        "Tamil Nadu"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q10",
+      "question": "Who built the Moti Masjid in the Red Fort of Delhi?",
+      "options": [
+        "Akbar",
+        "Jahangir",
+        "Shahjahan",
+        "Aurangzeb"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q11",
+      "question": "Taj Mahal was built in ______.",
+      "options": [
+        "14th Century",
+        "15th Century",
+        "16th Century",
+        "17th Century"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q12",
+      "question": "Which of the following is the largest dome of India?",
+      "options": [
+        "Alai Darwaza",
+        "Adhai Din Ka Jhonpra",
+        "Gol Gumbaz",
+        "Data Darbar"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q13",
+      "question": "India's 'Statue of Unity' is situated in the state of:",
+      "options": [
+        "Tamil Nadu",
+        "Maharashtra",
+        "Karnataka",
+        "Gujarat"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q14",
+      "question": "Which of the following was built by Muhammad Quli Qutub Shah?",
+      "options": [
+        "Buland Darwaza",
+        "Gol Gumbaz",
+        "Charminar",
+        "Jama Masjid"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q15",
+      "question": "Most of the sculptures in 'Rani ki Vav' are in devotion to:",
+      "options": [
+        "Shiva",
+        "Ganesha",
+        "Mahavira",
+        "Vishnu"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q16",
+      "question": "In honour of which saint did Akbar build Fatehpur Sikri?",
+      "options": [
+        "Sheikh Shihabuddin Suhrawardi",
+        "Sheikh Nizamat Ullah",
+        "Khwaja Pir Mohammad",
+        "Sheikh Salim Chishti"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q17",
+      "question": "Which of the following monuments bears a similarity to the French War Memorial, the Arc-de-Triomphe?",
+      "options": [
+        "Charminar",
+        "Victoria Memorial",
+        "Gateway of India",
+        "India Gate"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q18",
+      "question": "The Red Fort and the Jama Masjid in Delhi stand out as towering achievements of architecture during the reign of ______.",
+      "options": [
+        "Shahjahan",
+        "Akbar",
+        "Jehangir",
+        "Aurangzeb"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "When was the Sanchi Stupa declared a World Heritage Site by UNESCO?",
+      "options": [
+        "1990",
+        "1987",
+        "1989",
+        "1988"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q20",
+      "question": "The Qutub Minar was named after the Sufi saint ______.",
+      "options": [
+        "Syed Waheed Ashraf",
+        "Alauddin Sabir Kaliyari",
+        "Khwaja Qutbuddin Bakhtiyar Kaki",
+        "Qutub-ud-Din Aibak"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q21",
+      "question": "Safdarjung's tomb, set in the middle of a garden, was built by Nawab Shuja-ud-Daulah in ______.",
+      "options": [
+        "Uttar Pradesh",
+        "Uttarakhand",
+        "Delhi",
+        "Bihar"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q22",
+      "question": "The famous Khajuraho Group of Monuments was constructed by the ______.",
+      "options": [
+        "Solankis",
+        "Gahadavalas",
+        "Chalukya",
+        "Chandelas"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q23",
+      "question": "Rani-ki-Vav (the Queen's Stepwell), which is in the UNESCO World Heritage List, is located in:",
+      "options": [
+        "Madhya Pradesh",
+        "Gujarat",
+        "Uttar Pradesh",
+        "Rajasthan"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q24",
+      "question": "How many windows are there on the outside walls of Hawa Mahal of Jaipur?",
+      "options": [
+        "953",
+        "964",
+        "965",
+        "973"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q25",
+      "question": "Which of the following monuments is also known as the 'Taj of the Deccan'?",
+      "options": [
+        "Qutub Minar",
+        "Bibi ka Maqbara",
+        "Chand Minar",
+        "Mahabat Maqbara"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q26",
+      "question": "______ is a palace in Jaipur, built by Sawai Pratap Singh.",
+      "options": [
+        "Lallgarh Palace",
+        "Umaid Bhavan",
+        "Hawa Mahal",
+        "Sajjangarh Palace"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q27",
+      "question": "Who among the following designed the famous structure of the 'Gateway of India'?",
+      "options": [
+        "Edward Lutyens",
+        "James Miller",
+        "George Wittet",
+        "Alexander Thompson"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q28",
+      "question": "Who amongst the following is the creator of the famous Rock Garden of Chandigarh?",
+      "options": [
+        "Nek Chand",
+        "Khushwant Singh",
+        "Edward Baker",
+        "Charles Corbusier"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q29",
+      "question": "The famous cultural site Rani-ki-Vav (the Queen's Stepwell) is situated on the banks of which river?",
+      "options": [
+        "Yamuna River",
+        "Saraswati River",
+        "Hooghly River",
+        "Mahanadi"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q30",
+      "question": "Mehrangarh Fort is located in which of the following cities?",
+      "options": [
+        "Jodhpur",
+        "Kota",
+        "Bikaner",
+        "Jaipur"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q31",
+      "question": "The famous Sheesh Mahal in Punjab was built by which of the following rulers?",
+      "options": [
+        "Maharaja Sawai Pratap Singh",
+        "Rana Kumbha",
+        "Maharaja Narinder Singh",
+        "Raja Man Singh I"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q32",
+      "question": "World Heritage Site, Agra Fort is located in which of the following states?",
+      "options": [
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "Chhattisgarh",
+        "Odisha"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q33",
+      "question": "The Khas Mahal, Sheesh Mahal, Musamman Burj, Diwan-i-Khas, Diwan-i-Aam, Pearl Mosque and the Nagina Masjid are the part of which Mughal Monument?",
+      "options": [
+        "Taj Mahal",
+        "Humayun Tomb",
+        "Red Fort Complex",
+        "Agra Fort"
+      ],
+      "correctAnswer": 3
+    }
+  ]
+}
