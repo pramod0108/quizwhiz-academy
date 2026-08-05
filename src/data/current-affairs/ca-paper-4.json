@@ -1,0 +1,285 @@
+{
+  "id": "ca_paper_1",
+  "title": "Famous Scientists",
+  "subject": "Current Affairs",
+  "subjectIcon": "🧑‍🔬",
+  "totalQuestions": 25,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Who is known as the Father of Indian Chemistry?",
+      "options": [
+        "C.V. Raman",
+        "Prafulla Chandra Ray",
+        "Vikram Sarabhai",
+        "Salim Ali"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Bengal Chemicals and Pharmaceuticals was founded by:",
+      "options": [
+        "Har Gobind Khorana",
+        "Jagdish Chandra Bose",
+        "Prafulla Chandra Ray",
+        "Meghnad Saha"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "Who is known as the Birdman of India?",
+      "options": [
+        "Salim Ali",
+        "C.V. Raman",
+        "Homi Bhabha",
+        "Vikram Sarabhai"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "question": "Srinivasa Ramanujan made remarkable contributions to:",
+      "options": [
+        "Botany",
+        "Mathematics",
+        "Astronomy",
+        "Medicine"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "The Raman Effect is associated with:",
+      "options": [
+        "A.P.J. Abdul Kalam",
+        "C.V. Raman",
+        "Jagdish Chandra Bose",
+        "Meghnad Saha"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "Who is called the Father of the Indian Nuclear Programme?",
+      "options": [
+        "Vikram Sarabhai",
+        "Homi J. Bhabha",
+        "Satyendra Nath Bose",
+        "Har Gobind Khorana"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "The founding director of TIFR was:",
+      "options": [
+        "Homi J. Bhabha",
+        "C.V. Raman",
+        "Salim Ali",
+        "P.C. Mahalanobis"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "The Crescograph was invented by:",
+      "options": [
+        "Jagdish Chandra Bose",
+        "Meghnad Saha",
+        "Shanti Swarup Bhatnagar",
+        "Salim Ali"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q9",
+      "question": "Satyendra Nath Bose is famous for his work in:",
+      "options": [
+        "Geology",
+        "Quantum Mechanics",
+        "Zoology",
+        "Genetics"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "Who is known as the Father of Indian Missile Technology?",
+      "options": [
+        "Vikram Sarabhai",
+        "Homi Bhabha",
+        "A.P.J. Abdul Kalam",
+        "C.V. Raman"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q11",
+      "question": "India's strategic missiles Agni and Prithvi were developed under the leadership of:",
+      "options": [
+        "Har Gobind Khorana",
+        "A.P.J. Abdul Kalam",
+        "Salim Ali",
+        "Meghnad Saha"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Who was the first scientist to produce synthetic genes?",
+      "options": [
+        "Har Gobind Khorana",
+        "Srinivasa Ramanujan",
+        "Jagdish Chandra Bose",
+        "Vikram Sarabhai"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "Who is known as the Father of Statistics in India?",
+      "options": [
+        "P.C. Mahalanobis",
+        "Homi Bhabha",
+        "Salim Ali",
+        "C.V. Raman"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "The Indian Statistical Institute was founded by:",
+      "options": [
+        "Meghnad Saha",
+        "P.C. Mahalanobis",
+        "Vikram Sarabhai",
+        "Shanti Swarup Bhatnagar"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "Who is called the Father of the Indian Space Programme?",
+      "options": [
+        "Vikram Sarabhai",
+        "Homi Bhabha",
+        "C.V. Raman",
+        "A.P.J. Abdul Kalam"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "ISRO was founded by:",
+      "options": [
+        "Homi Bhabha",
+        "Vikram Sarabhai",
+        "Har Gobind Khorana",
+        "Meghnad Saha"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "Subrahmanyan Chandrasekhar is best known for his work on:",
+      "options": [
+        "Plant Growth",
+        "Structure and Evolution of Stars",
+        "Bird Survey",
+        "Statistics"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "Subrahmanyan Chandrasekhar was the nephew of:",
+      "options": [
+        "Jagdish Chandra Bose",
+        "C.V. Raman",
+        "Salim Ali",
+        "A.P.J. Abdul Kalam"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "Meghnad Saha invented an instrument to measure:",
+      "options": [
+        "Rainfall",
+        "Weight and Pressure of Solar Rays",
+        "Earthquakes",
+        "Wind Speed"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "Who prepared the original plan for the Damodar Valley Project?",
+      "options": [
+        "Meghnad Saha",
+        "Vikram Sarabhai",
+        "Salim Ali",
+        "P.C. Mahalanobis"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q21",
+      "question": "The first Director-General of CSIR was:",
+      "options": [
+        "Shanti Swarup Bhatnagar",
+        "C.V. Raman",
+        "Homi Bhabha",
+        "Jagdish Chandra Bose"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q22",
+      "question": "Who is known as the Father of Research Laboratories in India?",
+      "options": [
+        "Vikram Sarabhai",
+        "Shanti Swarup Bhatnagar",
+        "Salim Ali",
+        "Meghnad Saha"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q23",
+      "question": "The Shanti Swarup Bhatnagar Prize was instituted by:",
+      "options": [
+        "ISRO",
+        "CSIR",
+        "DRDO",
+        "UGC"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q24",
+      "question": "Who invented the Mechanical Calculator in 1642?",
+      "options": [
+        "Thomas Edison",
+        "Blaise Pascal",
+        "Alexander Graham Bell",
+        "James Watt"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q25",
+      "question": "Who invented the Airplane in 1903?",
+      "options": [
+        "Wright Brothers (Wilbur and Orville Wright)",
+        "Nikola Tesla",
+        "Michael Faraday",
+        "Isaac Newton"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}
