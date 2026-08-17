@@ -3,7 +3,7 @@
   "title": "First in India",
   "subject": "General Knowledge",
   "subjectIcon": "🇮🇳",
-  "totalQuestions": 11,
+  "totalQuestions": 34,
   "timeLimit": 30,
   "questions": [
     {
@@ -126,6 +126,259 @@
         "Lord Mountbatten"
       ],
       "correctAnswer": 3
+    },
+    {
+      "id": "q12",
+      "question": "Who was the first Indian to join the Indian Civil Service (ICS)?",
+      "options": [
+        "Satyendranath Tagore",
+        "Surendranath Banerjee",
+        "Dadabhai Naoroji",
+        "Raja Ram Mohan Roy"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "Who was the first Speaker of the Lok Sabha?",
+      "options": [
+        "G. V. Mavalankar",
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru",
+        "Ananthasayanam Ayyangar"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "Who was the first woman Governor of an Indian state?",
+      "options": [
+        "Sarojini Naidu",
+        "Vijaya Lakshmi Pandit",
+        "Sucheta Kriplani",
+        "Indira Gandhi"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "Who was the first Chief Justice of India?",
+      "options": [
+        "M. Hidayatullah",
+        "Harilal Jekisundas Kania",
+        "B. R. Ambedkar",
+        "P. N. Bhagwati"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Who was the first woman Prime Minister of India?",
+      "options": [
+        "Pratibha Patil",
+        "Indira Gandhi",
+        "Sarojini Naidu",
+        "Sucheta Kriplani"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "Who was the first woman President of India?",
+      "options": [
+        "Droupadi Murmu",
+        "Pratibha Devi Singh Patil",
+        "Indira Gandhi",
+        "Meira Kumar"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "Who was the first woman Speaker of the Lok Sabha?",
+      "options": [
+        "Meira Kumar",
+        "Sumitra Mahajan",
+        "Pratibha Patil",
+        "Sarojini Naidu"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "Who was the first woman Defence Minister of India?",
+      "options": [
+        "Nirmala Sitharaman",
+        "Indira Gandhi",
+        "Sushma Swaraj",
+        "Sarojini Naidu"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "Who was the first woman full-time Finance Minister of India?",
+      "options": [
+        "Indira Gandhi",
+        "Nirmala Sitharaman",
+        "Pratibha Patil",
+        "Sushma Swaraj"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q21",
+      "question": "Who was the first woman Chief Minister of an Indian state?",
+      "options": [
+        "Sucheta Kriplani",
+        "Sarojini Naidu",
+        "Indira Gandhi",
+        "Mayawati"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q22",
+      "question": "Who was the first woman Chief Justice of a High Court in India?",
+      "options": [
+        "M. Fathima Beevi",
+        "Leila Seth",
+        "Indu Malhotra",
+        "Ruma Pal"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q23",
+      "question": "Who was the first woman judge of the Supreme Court of India?",
+      "options": [
+        "Leila Seth",
+        "M. Fathima Beevi",
+        "Ruma Pal",
+        "Indira Banerjee"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q24",
+      "question": "Who was the first Indian woman to receive the Bharat Ratna?",
+      "options": [
+        "Indira Gandhi",
+        "Mother Teresa",
+        "Sarojini Naidu",
+        "M. S. Subbulakshmi"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q25",
+      "question": "Who was the first tribal President of India?",
+      "options": [
+        "Pratibha Patil",
+        "Droupadi Murmu",
+        "Indira Gandhi",
+        "Sarojini Naidu"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q26",
+      "question": "Who was the first Indian woman to receive the Nobel Prize?",
+      "options": [
+        "Mother Teresa",
+        "Indira Gandhi",
+        "Sarojini Naidu",
+        "Arundhati Roy"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q27",
+      "question": "Who was the first Indian woman to climb Mount Everest?",
+      "options": [
+        "Santosh Yadav",
+        "Bachendri Pal",
+        "Arati Saha",
+        "Dicky Dolma"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q28",
+      "question": "Who was the first Indian woman to climb Mount Everest twice?",
+      "options": [
+        "Bachendri Pal",
+        "Santosh Yadav",
+        "Arati Saha",
+        "Premlata Agarwal"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q29",
+      "question": "Who was the first Indian woman to cross the English Channel?",
+      "options": [
+        "Arati Saha",
+        "Bachendri Pal",
+        "Santosh Yadav",
+        "P. T. Usha"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q30",
+      "question": "Who was the first Indian woman Union Cabinet Minister?",
+      "options": [
+        "Rajkumari Amrit Kaur",
+        "Sucheta Kriplani",
+        "Indira Gandhi",
+        "Sarojini Naidu"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q31",
+      "question": "Who was the first Indian woman to win the Booker Prize?",
+      "options": [
+        "Arundhati Roy",
+        "Kiran Desai",
+        "Anita Desai",
+        "Aravind Adiga"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q32",
+      "question": "Who was the first musician to receive the Bharat Ratna?",
+      "options": [
+        "Lata Mangeshkar",
+        "M. S. Subbulakshmi",
+        "Bhimsen Joshi",
+        "Ravi Shankar"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q33",
+      "question": "Who was the first Indian woman to go into space?",
+      "options": [
+        "Sunita Williams",
+        "Kalpana Chawla",
+        "Rakesh Sharma",
+        "Tessy Thomas"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q34",
+      "question": "Who was the first Indian woman Governor?",
+      "options": [
+        "Sarojini Naidu",
+        "Vijaya Lakshmi Pandit",
+        "Rajkumari Amrit Kaur",
+        "Sucheta Kriplani"
+      ],
+      "correctAnswer": 0
     }
   ]
 }
