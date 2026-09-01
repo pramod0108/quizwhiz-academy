@@ -1,0 +1,582 @@
+{
+  "id": "synonyms_exercise",
+  "title": "Synonyms Exercise",
+  "subject": "English Vocabulary",
+  "subjectIcon": "�",
+  "totalQuestions": 52,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Choose the synonym of DAUNTLESS (निडर).",
+      "options": [
+        "Brave",
+        "Insane",
+        "Playful",
+        "Beautiful"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q2",
+      "question": "Choose the synonym of PAWN (गिरवी रखना).",
+      "options": [
+        "Hire",
+        "Pledge",
+        "Scrounge",
+        "Sponge"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Choose the synonym of CRAFTY (चालाक).",
+      "options": [
+        "Cunning",
+        "Outspoken",
+        "Infamous",
+        "Unkind"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "question": "Choose the synonym of EXORBITANT (अत्यधिक).",
+      "options": [
+        "Excessive",
+        "Odd",
+        "Ridiculous",
+        "Threatening"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q5",
+      "question": "Choose the synonym of PENCHANT (रुचि/पसंद).",
+      "options": [
+        "Disability",
+        "Dislike",
+        "Eagerness",
+        "Liking"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q6",
+      "question": "Choose the synonym of HAPPINESS (खुशी).",
+      "options": [
+        "Bliss",
+        "Grief",
+        "Misery",
+        "Sorrow"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q7",
+      "question": "Choose the synonym of VORACIOUS (बहुत लालची/भूखा).",
+      "options": [
+        "Greedy",
+        "Hasty",
+        "Casual",
+        "Delicious"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "Choose the synonym of AMICABLE (मैत्रीपूर्ण).",
+      "options": [
+        "Friendly",
+        "Happy",
+        "Joyous",
+        "Perfect"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q9",
+      "question": "Choose the synonym of POROUS (छिद्रयुक्त/जिसमें से द्रव गुजर सके).",
+      "options": [
+        "Adventurous",
+        "Concrete",
+        "Permeable",
+        "Pungent"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q10",
+      "question": "Choose the synonym of COARSE (खुरदरा).",
+      "options": [
+        "Definite",
+        "Difficult",
+        "Path",
+        "Rough"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q11",
+      "question": "Choose the synonym of VANISH (गायब होना).",
+      "options": [
+        "Decrease",
+        "Disappear",
+        "Encircle",
+        "Reveal"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Choose the synonym of DEMISE (मृत्यु).",
+      "options": [
+        "Accident",
+        "Death",
+        "Dismissal",
+        "Misfortune"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "Choose the synonym of ENGROSS (पूरी तरह ध्यान आकर्षित करना).",
+      "options": [
+        "Absorb",
+        "Dismiss",
+        "Endanger",
+        "Oppress"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "Choose the synonym of MIMIC (नकल करना).",
+      "options": [
+        "Copy",
+        "Great",
+        "Refresh",
+        "Tease"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "Choose the synonym of KIOSK (छोटी दुकान/बूथ).",
+      "options": [
+        "Booth",
+        "Mall",
+        "Almirah",
+        "Store"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "Choose the synonym of HUMOROUS (हास्यपूर्ण).",
+      "options": [
+        "Fashionable",
+        "Innovative",
+        "Timid",
+        "Witty"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q17",
+      "question": "Choose the synonym of GATHER (इकट्ठा करना).",
+      "options": [
+        "Congregate",
+        "Disperse",
+        "Scatter",
+        "Separate"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "Choose the synonym of GREET (अभिवादन करना).",
+      "options": [
+        "Aloof",
+        "Hostile",
+        "Unsociable",
+        "Welcome"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q19",
+      "question": "Choose the synonym of EXTRACT (निकालना).",
+      "options": [
+        "Give",
+        "Spread",
+        "Remove",
+        "Disperse"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q20",
+      "question": "Choose the synonym of VERIFY (सत्यापित करना).",
+      "options": [
+        "Authenticate",
+        "Conceal",
+        "Hide",
+        "Disapprove"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q21",
+      "question": "Choose the synonym of ESTABLISH (स्थापित करना).",
+      "options": [
+        "Disorganize",
+        "Displace",
+        "Institute",
+        "Neglect"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q22",
+      "question": "Choose the synonym of ABBREVIATE (संक्षिप्त करना).",
+      "options": [
+        "Lengthen",
+        "Shorten",
+        "Lighten",
+        "Abandon"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q23",
+      "question": "Choose the synonym of ANCIENT (प्राचीन).",
+      "options": [
+        "New",
+        "Olden",
+        "Ugly",
+        "Beautiful"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q24",
+      "question": "Choose the synonym of TINY (बहुत छोटा).",
+      "options": [
+        "Small",
+        "Big",
+        "Near",
+        "Far"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q25",
+      "question": "Choose the synonym of HUGE (बहुत बड़ा).",
+      "options": [
+        "Clean",
+        "Large",
+        "Ugly",
+        "Dirty"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q26",
+      "question": "Choose the synonym of CONQUEST (विजय).",
+      "options": [
+        "Victory",
+        "Defeat",
+        "Destruction",
+        "Peace"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q27",
+      "question": "Choose the synonym of BEGIN (शुरू करना).",
+      "options": [
+        "Cruel",
+        "Kind",
+        "Start",
+        "Stop"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q28",
+      "question": "Choose the synonym of CONNOISSEUR (विशेषज्ञ/पारखी).",
+      "options": [
+        "Ignorant",
+        "Interpreter",
+        "Delinquent",
+        "Expert"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q29",
+      "question": "Choose the synonym of HAGGLE (मोल-भाव करना).",
+      "options": [
+        "Postpone",
+        "Accept",
+        "Bargain",
+        "Reject"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q30",
+      "question": "Choose the synonym of PAROCHIAL (संकीर्ण विचारों वाला).",
+      "options": [
+        "Reluctant",
+        "Narrow-minded",
+        "Troublesome",
+        "Gloomy"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q31",
+      "question": "Choose the synonym of SERENE (शांत).",
+      "options": [
+        "Intolerable",
+        "Moderate",
+        "Calm",
+        "Civilised"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q32",
+      "question": "Choose the synonym of OBSCURE (रहस्यमय/अस्पष्ट).",
+      "options": [
+        "Balanced",
+        "Search",
+        "Revolt",
+        "Mysterious"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q33",
+      "question": "Choose the synonym of ADMIRE (प्रशंसा करना).",
+      "options": [
+        "Praise",
+        "Quality",
+        "Possess",
+        "Insult"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q34",
+      "question": "Choose the synonym of BITTERNESS (कटुता).",
+      "options": [
+        "Mildness",
+        "Kindness",
+        "Acrimony",
+        "Sweetness"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q35",
+      "question": "Choose the synonym of BLESSED (पवित्र/धन्य).",
+      "options": [
+        "Holy",
+        "Curse",
+        "Condemned",
+        "Immortal"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q36",
+      "question": "Choose the synonym of BUSY (व्यस्त).",
+      "options": [
+        "Weary",
+        "Preoccupied",
+        "Ignorant",
+        "Active"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q37",
+      "question": "Choose the synonym of DELIVERED (पहुँचाया/भेजा गया).",
+      "options": [
+        "Bundled",
+        "Spread",
+        "Dispatched",
+        "Displayed"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q38",
+      "question": "Choose the synonym of DECIDE (निर्णय लेना).",
+      "options": [
+        "Settle",
+        "Choose",
+        "Determine",
+        "All of the above"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q39",
+      "question": "Choose the synonym of DELECTABLE (स्वादिष्ट).",
+      "options": [
+        "Confusing",
+        "Angry",
+        "Delicious",
+        "Smelly"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q40",
+      "question": "Choose the synonym of REQUESTED (विनम्रतापूर्वक कहा/अनुरोध किया).",
+      "options": [
+        "Ordered",
+        "Ask politely",
+        "Instructed",
+        "Forced"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q41",
+      "question": "Choose the synonym of MOMENTOUS (महत्वपूर्ण).",
+      "options": [
+        "Insignificant",
+        "Important",
+        "Sudden",
+        "Abrupt"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q42",
+      "question": "Choose the synonym of GIGANTIC (बहुत विशाल/बहुत बड़ा).",
+      "options": [
+        "Very beautiful",
+        "Very good",
+        "Very bad",
+        "Very big"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q43",
+      "question": "Choose the synonym of EXHAUSTED (बहुत थका हुआ).",
+      "options": [
+        "Very hot",
+        "Very polluted",
+        "Very fresh",
+        "Very tired"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q44",
+      "question": "Choose the synonym of SUFFICIENT (पर्याप्त).",
+      "options": [
+        "Infinite",
+        "Adequate",
+        "Merry",
+        "Surplus"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q45",
+      "question": "Choose the synonym of GRIEF (दुःख).",
+      "options": [
+        "Cheerful",
+        "Sorrow",
+        "Happy",
+        "Injury"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q46",
+      "question": "Choose the synonym of COMPULSORY (अनिवार्य).",
+      "options": [
+        "Forced",
+        "Affable",
+        "Optional",
+        "Not attempted"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q47",
+      "question": "Choose the synonym of ADVICE (सलाह).",
+      "options": [
+        "Council",
+        "Counsel",
+        "Practice",
+        "Proposal"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q48",
+      "question": "Choose the synonym of FORGIVE (क्षमा करना).",
+      "options": [
+        "Pardon",
+        "Justify",
+        "Convict",
+        "Blame"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q49",
+      "question": "Choose the synonym of CONFESS (स्वीकार करना).",
+      "options": [
+        "Deny",
+        "Refuse",
+        "Admit",
+        "None"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q50",
+      "question": "Choose the synonym of IGNORE (अनदेखा करना).",
+      "options": [
+        "Remember",
+        "Overlook",
+        "Notice",
+        "Indicate"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q51",
+      "question": "Choose the synonym of FLY (उड़ना).",
+      "options": [
+        "Sore",
+        "Sour",
+        "Soar",
+        "Sure"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q52",
+      "question": "Choose the synonym of POLITE (विनम्र).",
+      "options": [
+        "Rough",
+        "Coarse",
+        "Refined",
+        "Rude"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}
