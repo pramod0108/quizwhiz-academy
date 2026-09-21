@@ -1,0 +1,252 @@
+{
+  "id": "inventors_inventions_paper_1",
+  "title": "Inventors and Inventions Paper 1",
+  "subject": "General Knowledge",
+  "subjectIcon": "💡",
+  "totalQuestions": 22,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Who invented the air conditioner?",
+      "options": [
+        "James Watt",
+        "Willis Carrier",
+        "Thomas Edison",
+        "Alexander Graham Bell"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Who invented the airplane?",
+      "options": [
+        "Karl Benz",
+        "The Wright Brothers",
+        "James Watt",
+        "Samuel Morse"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Who is associated with the invention of the atomic bomb?",
+      "options": [
+        "Robert Oppenheimer",
+        "Thomas Edison",
+        "Benjamin Franklin",
+        "Martin Cooper"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "question": "Who is widely associated with the invention of the practical electric light bulb?",
+      "options": [
+        "Karl Benz",
+        "Thomas Alva Edison",
+        "Blaise Pascal",
+        "John Logie Baird"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "Who is commonly credited with developing an early pedal-driven bicycle?",
+      "options": [
+        "Kirkpatrick Macmillan",
+        "Charles Babbage",
+        "Ray Tomlinson",
+        "Samuel Colt"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "question": "Who is associated with the invention of the petrol-powered automobile?",
+      "options": [
+        "Karl Benz",
+        "Robert Oppenheimer",
+        "Guglielmo Marconi",
+        "Lewis Waterman"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q7",
+      "question": "Who patented Portland cement?",
+      "options": [
+        "Joseph Aspdin",
+        "Tim Berners-Lee",
+        "Martin Cooper",
+        "Douglas Engelbart"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "Who is widely associated with the invention of radio communication?",
+      "options": [
+        "Guglielmo Marconi",
+        "Blaise Pascal",
+        "Samuel Colt",
+        "John Logie Baird"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "Who is famous for developing steam locomotives?",
+      "options": [
+        "George Stephenson",
+        "Thomas Edison",
+        "Charles Goodyear",
+        "Vint Cerf"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "Who discovered X-rays?",
+      "options": [
+        "Wilhelm Conrad Röntgen",
+        "Alexander Graham Bell",
+        "James Watt",
+        "Karl Benz"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "Who is associated with the invention of the practical fountain pen?",
+      "options": [
+        "Lewis Waterman",
+        "Ray Tomlinson",
+        "Samuel Morse",
+        "Joseph Aspdin"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Who is associated with the development of the Internet's TCP/IP protocols?",
+      "options": [
+        "Vint Cerf",
+        "Blaise Pascal",
+        "Samuel Colt",
+        "George Stephenson"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q21",
+      "question": "Who demonstrated an early working television system?",
+      "options": [
+        "John Logie Baird",
+        "Martin Cooper",
+        "Charles Babbage",
+        "Willis Carrier"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q22",
+      "question": "Who invented the computer mouse?",
+      "options": [
+        "Douglas Engelbart",
+        "Karl Benz",
+        "Guglielmo Marconi",
+        "Benjamin Franklin"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q23",
+      "question": "Who invented the handheld mobile phone?",
+      "options": [
+        "Martin Cooper",
+        "Thomas Edison",
+        "Ray Tomlinson",
+        "Robert Oppenheimer"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q24",
+      "question": "Who is known as the Father of the Computer?",
+      "options": [
+        "Charles Babbage",
+        "Samuel Colt",
+        "Lewis Waterman",
+        "Joseph Aspdin"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q25",
+      "question": "Who is associated with the invention of the Colt revolver?",
+      "options": [
+        "Samuel Colt",
+        "James Watt",
+        "Vint Cerf",
+        "George Stephenson"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q26",
+      "question": "Who invented the World Wide Web?",
+      "options": [
+        "Tim Berners-Lee",
+        "Guglielmo Marconi",
+        "Blaise Pascal",
+        "Thomas Edison"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q27",
+      "question": "Who is credited with inventing network email?",
+      "options": [
+        "Ray Tomlinson",
+        "Charles Babbage",
+        "Martin Cooper",
+        "Karl Benz"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q28",
+      "question": "Who is famous for conducting a kite experiment related to electricity?",
+      "options": [
+        "Benjamin Franklin",
+        "Joseph Aspdin",
+        "Samuel Colt",
+        "Douglas Engelbart"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q29",
+      "question": "Who is associated with the development of vulcanized rubber?",
+      "options": [
+        "Charles Goodyear",
+        "Willis Carrier",
+        "John Logie Baird",
+        "Vint Cerf"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q30",
+      "question": "Who invented the Pascaline, an early mechanical calculator?",
+      "options": [
+        "Blaise Pascal",
+        "Robert Oppenheimer",
+        "Lewis Waterman",
+        "Tim Berners-Lee"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}
