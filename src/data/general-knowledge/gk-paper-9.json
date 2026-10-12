@@ -1,0 +1,148 @@
+{
+"id": "geographical_epithets_1",
+"title": "Geographical Epithets",
+"subject": "General Knowledge",
+"subjectIcon": "🌍",
+"totalQuestions": 23,
+"timeLimit": 30,
+"questions": [
+{
+"id": "q1",
+"question": "Which geographical epithet is associated with San Francisco?",
+"options": ["City of the Golden Gate", "Eternal City", "Pink City", "Land of the Rising Sun"],
+"correctAnswer": 0
+},
+{
+"id": "q2",
+"question": "Which geographical epithet is associated with Hwang Ho?",
+"options": ["Land of the Rising Sun", "China's Sorrow", "Roof of the World", "Dark Continent"],
+"correctAnswer": 1
+},
+{
+"id": "q3",
+"question": "Which geographical epithet is associated with Africa?",
+"options": ["White Continent", "Dark Continent", "Island Continent", "Cockpit of Europe"],
+"correctAnswer": 1
+},
+{
+"id": "q4",
+"question": "Which geographical epithet is associated with Rome?",
+"options": ["Eternal City", "Pink City", "Playground of Europe", "City of the Golden Gate"],
+"correctAnswer": 0
+},
+{
+"id": "q5",
+"question": "Which geographical epithet is associated with Lhasa, Tibet?",
+"options": ["Forbidden Country", "Hermit Kingdom", "Roof of the World", "Land of the Thunderbolt"],
+"correctAnswer": 0
+},
+{
+"id": "q6",
+"question": "Which geographical epithet is associated with Korea?",
+"options": ["Hermit Kingdom", "Forbidden Country", "Land of the White Elephant", "Land of Maple"],
+"correctAnswer": 0
+},
+{
+"id": "q7",
+"question": "Which geographical epithet is associated with Australia?",
+"options": ["Land of the Kangaroo", "Island Continent", "Land of the Golden Fleece", "White Continent"],
+"correctAnswer": 1
+},
+{
+"id": "q8",
+"question": "Which geographical epithet is associated with Australia?",
+"options": ["Land of Maple", "Land of the Golden Fleece", "Coffee Bowl of the World", "Land of Clove"],
+"correctAnswer": 1
+},
+{
+"id": "q9",
+"question": "Which geographical epithet is associated with Australia?",
+"options": ["Land of the White Elephant", "Land of the Kangaroo", "Island Continent", "Land of the Midnight Sun"],
+"correctAnswer": 1
+},
+{
+"id": "q10",
+"question": "Which geographical epithet is associated with Thailand?",
+"options": ["Land of the White Elephant", "Land of the Rising Sun", "Land of the Kangaroo", "Land of the Thunderbolt"],
+"correctAnswer": 0
+},
+{
+"id": "q11",
+"question": "Which geographical epithet is associated with Cuba?",
+"options": ["Sugar Bowl of the World", "Coffee Bowl of the World", "Spice Garden of India", "Cockpit of Europe"],
+"correctAnswer": 0
+},
+{
+"id": "q12",
+"question": "Which geographical epithet is associated with Belgium?",
+"options": ["Cockpit of Europe", "Playground of Europe", "Eternal City", "Sugar Bowl of the World"],
+"correctAnswer": 0
+},
+{
+"id": "q13",
+"question": "Which geographical epithet is associated with Japan?",
+"options": ["Land of the Rising Sun", "Land of the Midnight Sun", "Land of Maple", "Land of Clove"],
+"correctAnswer": 0
+},
+{
+"id": "q14",
+"question": "Which geographical epithet is associated with Switzerland?",
+"options": ["Roof of the World", "Playground of Europe", "Cockpit of Europe", "Pink City"],
+"correctAnswer": 1
+},
+{
+"id": "q15",
+"question": "Which geographical epithet is associated with Brazil?",
+"options": ["Coffee Bowl of the World", "Sugar Bowl of the World", "Spice Garden of India", "Land of the Golden Fleece"],
+"correctAnswer": 0
+},
+{
+"id": "q16",
+"question": "Which geographical epithet is associated with Kerala?",
+"options": ["Land of Clove", "Spice Garden of India", "Coffee Bowl of the World", "Land of Maple"],
+"correctAnswer": 1
+},
+{
+"id": "q17",
+"question": "Which geographical epithet is associated with Pamir, Tibet?",
+"options": ["Roof of the World", "White Continent", "Dark Continent", "Forbidden Country"],
+"correctAnswer": 0
+},
+{
+"id": "q18",
+"question": "Which geographical epithet is associated with Bhutan?",
+"options": ["Land of the Thunderbolt", "Land of Maple", "Land of the Midnight Sun", "Hermit Kingdom"],
+"correctAnswer": 0
+},
+{
+"id": "q19",
+"question": "Which geographical epithet is associated with Canada?",
+"options": ["Land of Maple", "Land of Clove", "Land of the Golden Fleece", "Land of the Kangaroo"],
+"correctAnswer": 0
+},
+{
+"id": "q20",
+"question": "Which geographical epithet is associated with Zanzibar?",
+"options": ["Land of Clove", "Land of Maple", "Land of the White Elephant", "Spice Garden of India"],
+"correctAnswer": 0
+},
+{
+"id": "q21",
+"question": "Which geographical epithet is associated with Norway?",
+"options": ["Land of the Midnight Sun", "Land of the Rising Sun", "Land of the Thunderbolt", "Land of the Golden Fleece"],
+"correctAnswer": 0
+},
+{
+"id": "q22",
+"question": "Which geographical epithet is associated with Jaipur?",
+"options": ["Pink City", "Eternal City", "City of the Golden Gate", "White Continent"],
+"correctAnswer": 0
+},
+{
+"id": "q23",
+"question": "Which geographical epithet is associated with Antarctica?",
+"options": ["White Continent", "Dark Continent", "Island Continent", "Roof of the World"],
+"correctAnswer": 0
+}
+]
+}

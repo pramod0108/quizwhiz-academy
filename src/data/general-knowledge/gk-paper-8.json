@@ -1,0 +1,178 @@
+{
+"id": "gk_largest_smallest_highest_longest_1",
+"title": "Largest, Smallest, Highest and Longest in India",
+"subject": "General Knowledge",
+"subjectIcon": "🌏",
+"totalQuestions": 28,
+"timeLimit": 30,
+"questions": [
+{
+"id": "q1",
+"question": "Which is the longest river in India that flows entirely within India, according to the notes?",
+"options": ["Ganga", "Godavari", "Brahmaputra", "Narmada"],
+"correctAnswer": 0
+},
+{
+"id": "q2",
+"question": "Which is the highest mountain peak in the Himalayas listed in the notes?",
+"options": ["Nanda Devi", "Kanchenjunga", "Mount Everest", "Annapurna"],
+"correctAnswer": 1
+},
+{
+"id": "q3",
+"question": "Which is the highest mountain peak in India listed in the notes?",
+"options": ["Kanchenjunga", "Nanda Devi", "Godwin Austen (K2)", "Kamet"],
+"correctAnswer": 2
+},
+{
+"id": "q4",
+"question": "Which river is listed as the largest river by volume?",
+"options": ["Ganga", "Godavari", "Yamuna", "Brahmaputra"],
+"correctAnswer": 3
+},
+{
+"id": "q5",
+"question": "Which is the largest river in South India?",
+"options": ["Krishna", "Godavari", "Kaveri", "Tungabhadra"],
+"correctAnswer": 1
+},
+{
+"id": "q6",
+"question": "Which is the largest glacier in India listed in the notes?",
+"options": ["Gangotri Glacier", "Zemu Glacier", "Siachen Glacier", "Pindari Glacier"],
+"correctAnswer": 2
+},
+{
+"id": "q7",
+"question": "Which is the largest desert in India?",
+"options": ["Cold Desert of Spiti", "Rann of Kutch", "Sahara Desert", "Thar Desert"],
+"correctAnswer": 3
+},
+{
+"id": "q8",
+"question": "Which beach in Chennai is listed in the notes as the longest beach?",
+"options": ["Marina Beach", "Juhu Beach", "Baga Beach", "Kovalam Beach"],
+"correctAnswer": 0
+},
+{
+"id": "q9",
+"question": "Which is the largest natural freshwater lake in India listed in the notes?",
+"options": ["Dal Lake", "Wular Lake", "Chilika Lake", "Loktak Lake"],
+"correctAnswer": 1
+},
+{
+"id": "q10",
+"question": "Which is the highest lake listed in the notes?",
+"options": ["Pangong Tso", "Gurudongmar Lake", "Tso Lhamo Lake", "Dal Lake"],
+"correctAnswer": 2
+},
+{
+"id": "q11",
+"question": "Which is the largest delta listed in the notes?",
+"options": ["Mahanadi Delta", "Godavari Delta", "Krishna Delta", "Sundarbans Delta"],
+"correctAnswer": 3
+},
+{
+"id": "q12",
+"question": "Which is the largest river island in India listed in the notes?",
+"options": ["Majuli", "Diu", "Sriharikota", "Elephanta Island"],
+"correctAnswer": 0
+},
+{
+"id": "q13",
+"question": "Which is the largest artificial lake listed in the notes?",
+"options": ["Hirakud Reservoir", "Govind Ballabh Pant Sagar", "Gobind Sagar", "Nagarjuna Sagar"],
+"correctAnswer": 1
+},
+{
+"id": "q14",
+"question": "Which Indian state has the largest population?",
+"options": ["Maharashtra", "Bihar", "Uttar Pradesh", "West Bengal"],
+"correctAnswer": 2
+},
+{
+"id": "q15",
+"question": "Which is the largest state in India by area?",
+"options": ["Madhya Pradesh", "Maharashtra", "Uttar Pradesh", "Rajasthan"],
+"correctAnswer": 3
+},
+{
+"id": "q16",
+"question": "Which is the largest Union Territory of India by area?",
+"options": ["Ladakh", "Jammu and Kashmir", "Delhi", "Andaman and Nicobar Islands"],
+"correctAnswer": 0
+},
+{
+"id": "q17",
+"question": "Which Union Territory is listed in the notes as having the largest population?",
+"options": ["Chandigarh", "Delhi", "Puducherry", "Jammu and Kashmir"],
+"correctAnswer": 1
+},
+{
+"id": "q18",
+"question": "Which is the smallest Union Territory of India by area?",
+"options": ["Chandigarh", "Puducherry", "Lakshadweep", "Dadra and Nagar Haveli and Daman and Diu"],
+"correctAnswer": 2
+},
+{
+"id": "q19",
+"question": "Which state is listed in the notes as the smallest by population?",
+"options": ["Goa", "Mizoram", "Arunachal Pradesh", "Sikkim"],
+"correctAnswer": 3
+},
+{
+"id": "q20",
+"question": "Which is the smallest Indian state by area?",
+"options": ["Goa", "Sikkim", "Tripura", "Manipur"],
+"correctAnswer": 0
+},
+{
+"id": "q21",
+"question": "What is India's highest civilian award?",
+"options": ["Padma Shri", "Bharat Ratna", "Padma Bhushan", "Padma Vibhushan"],
+"correctAnswer": 1
+},
+{
+"id": "q22",
+"question": "Which pair correctly names India's highest military gallantry awards for wartime and peacetime, respectively?",
+"options": ["Ashoka Chakra and Param Vir Chakra", "Maha Vir Chakra and Kirti Chakra", "Param Vir Chakra and Ashoka Chakra", "Vir Chakra and Shaurya Chakra"],
+"correctAnswer": 2
+},
+{
+"id": "q23",
+"question": "Which state is listed in the notes as having the highest literacy rate?",
+"options": ["Tamil Nadu", "Mizoram", "Himachal Pradesh", "Kerala"],
+"correctAnswer": 3
+},
+{
+"id": "q24",
+"question": "Which state has the largest forest cover by area, according to the notes?",
+"options": ["Madhya Pradesh", "Arunachal Pradesh", "Chhattisgarh", "Maharashtra"],
+"correctAnswer": 0
+},
+{
+"id": "q25",
+"question": "Which city is listed in the notes as India's largest city by population?",
+"options": ["Delhi", "Mumbai", "Kolkata", "Bengaluru"],
+"correctAnswer": 1
+},
+{
+"id": "q26",
+"question": "Which city is commonly listed in general-knowledge sources as India's most densely populated major city?",
+"options": ["Chennai", "Kolkata", "Mumbai", "Hyderabad"],
+"correctAnswer": 2
+},
+{
+"id": "q27",
+"question": "Which is the longest river bridge listed in the notes?",
+"options": ["Dhola–Sadiya Bridge", "Mahatma Gandhi Setu", "Vikramshila Setu", "Bhupen Hazarika Setu"],
+"correctAnswer": 3
+},
+{
+"id": "q28",
+"question": "Which is the longest canal in India listed in the notes?",
+"options": ["Indira Gandhi Canal", "Upper Ganga Canal", "Buckingham Canal", "Western Yamuna Canal"],
+"correctAnswer": 0
+}
+]
+}
